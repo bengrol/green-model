@@ -5,18 +5,16 @@
       <h1 class="title">
         green-model
       </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
+      
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="http://www.greenisbetter.fr/"
           target="_blank"
-          class="button--green">Documentation</a>
+          class="button--green">Green is better France</a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="http://www.greenbusinessonly.com/"
           target="_blank"
-          class="button--grey">GitHub</a>
+          class="button--grey">Green international</a>
       </div>
     </div>
   </section>
