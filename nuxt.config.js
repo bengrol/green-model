@@ -1,3 +1,5 @@
+const cssFolder = '~source_template/Mamma-s-Kitchen-master/css'
+
 module.exports = {
   /*
   ** Headers of the page
@@ -10,9 +12,21 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', crossorigin:'anonymous', integrity:'sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' },
     ]
   },
+  css: [
+     // commented because loaded above via bootstrapcdn
+     // { src: cssFolder + '/bootstrap.min.css', lang: 'css' },
+     { src: cssFolder + '/font-awesome.min.css', lang: 'css' },
+     { src: cssFolder + '/owl.carousel.css', lang: 'css' },
+     { src: cssFolder + '/owl.theme.css', lang: 'css' },
+     { src: cssFolder + '/animate.css', lang: 'css' },
+     { src: cssFolder + '/flexslider.css', lang: 'css' },
+     { src: cssFolder + '/pricing.css', lang: 'css' },
+     { src: cssFolder + '/main.css', lang: 'css' },
+  ],
   /*
   ** Customize the progress bar color
   */
@@ -21,6 +35,8 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    // https://nuxtjs.org/api/configuration-build#extractcss
+    extractCSS: true,
     /*
     ** Run ESLint on save
     */
