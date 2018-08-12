@@ -3,6 +3,7 @@
     <Nav />
     <Header />
     <About />
+    <Pricing />
     <Map />
   </div>
 </template>
@@ -11,12 +12,14 @@
 import Header from '~/components/Header.vue'
 import Nav from '~/components/Nav.vue'
 import Map from '~/components/Map.vue'
+import Pricing from '~/components/Pricing.vue'
 import About from '~/components/About.vue'
 
 export default {
   components: {
     About,
     Nav,
+    Pricing,
     Map,
     Header,
   },

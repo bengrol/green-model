@@ -51,7 +51,7 @@ module.exports = {
       '~/plugins/flexslider.js',
       tplFolder + 'js/owl.carousel.min.js',
       '~/plugins/owl-carousel.js',
-      tplFolder + 'js/jquery.mixitup.min.js',
+      // tplFolder + 'js/jquery.mixitup.min.js', // uses import mixitup from 'mixitup' instead
       '~/plugins/mix-it-up.js',
       // tplFolder + 'js/wow.min.js', // uses import WOW from 'wow.js' instead
       '~/plugins/wow.js',

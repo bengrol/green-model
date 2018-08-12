@@ -1,11 +1,13 @@
-$(document).ready(function() {
+import mixitup from 'mixitup'
 
-  var $menuPricing = $('#menu-pricing')
+$(window).load(function() {
 
-  $menuPricing.mixItUp({
+  mixitup('#menu-pricing',{
     selectors: {
       target: 'li'
     }
   })
+
+  // console.log('applyied mixitup on', $('#menu-pricing li'), 'elements')
 
 })
