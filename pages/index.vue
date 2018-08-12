@@ -1,7 +1,7 @@
 <template>
   <div class="page-index">
     <Nav />
-    <!--<Header />-->
+    <Header />
     <About />
     <Map />
   </div>

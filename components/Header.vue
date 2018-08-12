@@ -1,5 +1,4 @@
 <template>
-  <!--== 5. Header ==-->
   <section id="header-slider" class="owl-carousel">
     <div class="item">
       <div class="container">
