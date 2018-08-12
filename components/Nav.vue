@@ -16,7 +16,7 @@
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="Food-fair-toggle">
+      <div id="Food-fair-toggle" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li>
             <a href="#about">about</a>
