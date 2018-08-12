@@ -1,4 +1,4 @@
-const cssFolder = '~source_template/Mamma-s-Kitchen-master/css'
+const tplFolder = '~/source_template/Mamma-s-Kitchen-master/'
 const webpack = require('webpack')
 
 module.exports = {
@@ -19,31 +19,49 @@ module.exports = {
     bodyAttrs: {
       'data-spy': 'scroll',
       'data-target': '#template-navbar'
-    }
+    },
+    script:[
+      {src: 'https://maps.googleapis.com/maps/api/js'}
+    ]
   },
   css: [
     // commented because loaded above via bootstrapcdn
-    // { src: cssFolder + '/bootstrap.min.css', lang: 'css' },
-    { src: cssFolder + '/font-awesome.min.css', lang: 'css' },
-    { src: cssFolder + '/owl.carousel.css', lang: 'css' },
-    { src: cssFolder + '/owl.theme.css', lang: 'css' },
-    { src: cssFolder + '/animate.css', lang: 'css' },
-    { src: cssFolder + '/flexslider.css', lang: 'css' },
-    { src: cssFolder + '/pricing.css', lang: 'css' },
-    { src: cssFolder + '/main.css', lang: 'css' },
+    // { src: tplFolder + '/bootstrap.min.css', lang: 'css' },
+    { src: tplFolder + 'css/font-awesome.min.css', lang: 'css' },
+    { src: tplFolder + 'css/owl.carousel.css', lang: 'css' },
+    { src: tplFolder + 'css/owl.theme.css', lang: 'css' },
+    { src: tplFolder + 'css/animate.css', lang: 'css' },
+    { src: tplFolder + 'css/flexslider.css', lang: 'css' },
+    { src: tplFolder + 'css/pricing.css', lang: 'css' },
+    { src: tplFolder + 'css/main.css', lang: 'css' },
   ],
-  /*
-     ** Customize the progress bar color
-     */
+  // Customize the progress bar color
   loading: { color: '#3B8070' },
-  /*
-     ** Build configuration
-     */
+  // Build configuration
   build: {
     // https://nuxtjs.org/api/configuration-build#extractcss
     extractCSS: true,
     // add support for jQuery & Bootstrap
-    vendor: ['jquery', 'bootstrap'],
+    vendor: [
+      'jquery',
+      'bootstrap',
+      '~/plugins/gmap.js',
+      '~/plugins/navbar-shrink.js',
+      tplFolder + 'js/jquery.flexslider.min.js',
+      '~/plugins/flexslider.js',
+      tplFolder + 'js/owl.carousel.min.js',
+      '~/plugins/owl-carousel.js',
+      tplFolder + 'js/jquery.mixitup.min.js',
+      '~/plugins/mix-it-up.js',
+      tplFolder + 'js/wow.min.js',
+      '~/plugins/wow.js',
+      tplFolder + 'js/jquery.validate.js',
+      tplFolder + 'js/jquery.hoverdir.js',
+      tplFolder + 'js/jQuery.scrollSpeed.js',
+      '~/plugins/scroll-speed.js',
+      '~/plugins/smooth-scroll.js',
+      tplFolder + 'js/script.js',
+    ],
     plugins: [
       // set shortcuts as global for bootstrap
       new webpack.ProvidePlugin({
