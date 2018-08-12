@@ -53,7 +53,7 @@ module.exports = {
       '~/plugins/owl-carousel.js',
       tplFolder + 'js/jquery.mixitup.min.js',
       '~/plugins/mix-it-up.js',
-      tplFolder + 'js/wow.min.js',
+      // tplFolder + 'js/wow.min.js', // uses import WOW from 'wow.js' instead
       '~/plugins/wow.js',
       tplFolder + 'js/jquery.validate.js',
       tplFolder + 'js/jquery.hoverdir.js',

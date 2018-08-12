@@ -15,7 +15,8 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery": "^1.11.2",
-    "nuxt": "^1.0.0"
+    "nuxt": "^1.0.0",
+    "wow.js": "^1.2.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
