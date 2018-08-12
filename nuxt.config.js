@@ -1,4 +1,5 @@
 const cssFolder = '~source_template/Mamma-s-Kitchen-master/css'
+const webpack = require('webpack')
 
 module.exports = {
   /*
