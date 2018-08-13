@@ -16,6 +16,7 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery": "^1.11.2",
+    "lodash": "^4.17.10",
     "mixitup": "^3.3.0",
     "nuxt": "^1.0.0",
     "vue-i18n": "^8.0.0",
