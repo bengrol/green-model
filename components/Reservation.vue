@@ -1,7 +1,7 @@
 <template>
   <div class="reservation-wrapper">
     <section id="reserve" class="reserve">
-      <img class="img-responsive section-icon hidden-sm hidden-xs" src="images/icons/reserve_black.png">
+      <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/reserve_black.png">
       <div class="wrapper">
         <div class="container-fluid">
           <div class="row dis-table">
@@ -19,7 +19,7 @@
       <!-- /.wrapper -->
     </section>
     <section class="reservation">
-      <img class="img-responsive section-icon hidden-sm hidden-xs" src="images/icons/reserve_color.png">
+      <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/reserve_color.png">
       <div class="wrapper">
         <div class="container-fluid">
           <div class=" section-content">

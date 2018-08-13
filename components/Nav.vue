@@ -11,7 +11,7 @@
           <span class="icon-bar"></span>
         </button>
         <nuxt-link :to="$i18n.path('')" class="navbar-brand">
-          <img id="logo" src="images/Logo_main.png" class="logo img-responsive">
+          <img id="logo" src="/images/Logo_main.png" class="logo img-responsive">
         </nuxt-link>
       </div>
 
@@ -19,25 +19,33 @@
       <div id="Food-fair-toggle" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="#about">about</a>
+            <a href="#about">{{ $t('nav.about') }}</a>
           </li>
           <li>
-            <a href="#pricing">pricing</a>
+            <a href="#pricing">{{ $t('nav.pricing') }}</a>
           </li>
           <li>
-            <a href="#great-place-to-enjoy">beer</a>
+            <a href="#great-place-to-enjoy">{{ $t('nav.beer') }}</a>
           </li>
           <li>
-            <a href="#breakfast">bread</a>
+            <a href="#breakfast">{{ $t('nav.bread') }}</a>
           </li>
           <li>
-            <a href="#featured-dish">featured</a>
+            <a href="#featured-dish">{{ $t('nav.featured') }}</a>
           </li>
           <li>
-            <a href="#reserve">reservation</a>
+            <a href="#reserve">{{ $t('nav.reservation') }}</a>
           </li>
           <li>
-            <a href="#contact">contact</a>
+            <a href="#contact">{{ $t('nav.contact') }}</a>
+          </li>
+          <li>
+            <nuxt-link v-if="$i18n.locale === 'fr'" :to="`/en` + $route.fullPath">
+              <div class="english flag" :title="$t('common.english')" @click="onLangChange"></div>
+            </nuxt-link>
+            <nuxt-link v-else :to="$route.fullPath.replace(/^\/[^\/]+/, '')">
+              <div class="french flag" :title="$t('common.french')" @click="onLangChange"></div>
+            </nuxt-link>
           </li>
         </ul>
       </div>
@@ -46,3 +54,35 @@
     <!-- /.row -->
   </nav>
 </template>
+
+<script>
+import { eventBus } from '../store/index'
+
+export default {
+  data() {
+    return {
+      loading: true,
+    }
+  },
+  methods: {
+    onLangChange() {
+      console.log('user changed lang')
+      eventBus.$emit('lang-changed')
+    },
+  },
+}
+</script>
+
+<style>
+.flag {
+  height: 11px;
+  width: 16px;
+  margin-top: 3px;
+}
+.flag.french {
+  background-image: url('/images/flags/french-flag.jpg');
+}
+.flag.english {
+  background-image: url('/images/flags/english-flag.jpg');
+}
+</style>

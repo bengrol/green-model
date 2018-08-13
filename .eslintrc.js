@@ -3,7 +3,8 @@ module.exports = {
   globals: {
     $: false,
     jQuery: false,
-    webpack: false
+    window: false,
+    webpack: false,
   },
   env: {
     browser: true,
@@ -41,6 +42,7 @@ module.exports = {
     "space-before-function-paren": ["error", "never"],
     "space-before-blocks": ["error", "always"],
     'no-console': 'off',
+    'vue/attributes-order': 'off',
     'vue/html-self-closing': 'off',
     'vue/max-attributes-per-line': 'off',
   }

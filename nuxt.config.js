@@ -25,7 +25,9 @@ module.exports = {
       'data-target': '#template-navbar'
     },
     script:[
-      {src: 'https://maps.googleapis.com/maps/api/js'}
+      {src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js'},
+      {src: 'https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js'},
+      {src: 'https://maps.googleapis.com/maps/api/js'},
     ],
     noscript: [{ innerHTML: 'Ce site nécessite JavaScript.' }],
   },
@@ -57,16 +59,15 @@ module.exports = {
     extractCSS: true,
     // add support for jQuery & Bootstrap
     vendor: [
-      'jquery',
+      // 'jquery',
       'bootstrap',
+      // 'mixitup',
       '~/plugins/gmap.js',
       '~/plugins/navbar-shrink.js',
       tplFolder + 'js/jquery.flexslider.min.js',
       '~/plugins/flexslider.js',
       tplFolder + 'js/owl.carousel.min.js',
-      '~/plugins/owl-carousel.js',
-      // tplFolder + 'js/jquery.mixitup.min.js', // uses import mixitup from 'mixitup' instead
-      '~/plugins/mix-it-up.js',
+      // tplFolder + 'js/jquery.mixitup.min.js', // cdn loaded instead
       // tplFolder + 'js/wow.min.js', // uses import WOW from 'wow.js' instead
       '~/plugins/wow.js',
       tplFolder + 'js/jquery.validate.js',

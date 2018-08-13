@@ -1,7 +1,30 @@
 {
   "common": {
-    "english": "Anglais",
-    "french": "Français"
+    "english": "Switch to English",
+    "french": "Passer en Français"
+  },
+  "nav": {
+    "about": "à propos",
+    "pricing": "prix",
+    "beer": "bière",
+    "bread": "pain",
+    "featured": "suggestion",
+    "reservation": "réservation",
+    "contact": "contact"
+  },
+  "header": {
+    "slide-1": {
+      "title": "MEILLEURS FRUITS",
+      "subtitle": "inserez votre slogan ici"
+    },
+    "slide-2": {
+      "title": "MEILLEURS SNACKS",
+      "subtitle": "inserez votre slogan ici"
+    },
+    "slide-3": {
+      "title": "MEILLEURS COKTAILS",
+      "subtitle": "inserez votre slogan ici"
+    }
   },
   "home": {
     "title": "Bienvenue",

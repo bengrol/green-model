@@ -1,11 +1,34 @@
 {
   "common": {
-    "english": "English",
-    "french": "French"
+    "english": "Switch to English",
+    "french": "Passer en Français"
   },
   "home": {
     "title": "Welcome",
     "introduction": "This is an introduction in English."
+  },
+  "nav": {
+    "about": "about",
+    "pricing": "pricing",
+    "beer": "beer",
+    "bread": "bread",
+    "featured": "featured",
+    "reservation": "reservation",
+    "contact": "contact"
+  },
+  "header": {
+    "slide-1": {
+      "title": "BEST FOOD",
+      "subtitle": "create your own slogan"
+    },
+    "slide-2": {
+      "title": "BEST SNACKS",
+      "subtitle": "create your own slogan"
+    },
+    "slide-3": {
+      "title": "BEST DRINKS",
+      "subtitle": "create your own slogan"
+    }
   },
   "footer": {
     "copyright": "Green Model ©️ 2018"

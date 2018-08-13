@@ -9,11 +9,11 @@
                 <div class="section-header">
                   <h2 class="pricing-title">Affordable Pricing</h2>
                   <ul id="filter-list" class="clearfix">
-                    <li class="filter" data-filter="all">All</li>
-                    <li class="filter" data-filter=".breakfast">Breakfast</li>
-                    <li class="filter" data-filter=".special">Special</li>
-                    <li class="filter" data-filter=".desert">Desert</li>
-                    <li class="filter" data-filter=".dinner">Dinner</li>
+                    <li class="filter" @click="doFilter('all')">All</li>
+                    <li class="filter" @click="doFilter('.breakfast')">Breakfast</li>
+                    <li class="filter" @click="doFilter('.special')">Special</li>
+                    <li class="filter" @click="doFilter('.desert')">Desert</li>
+                    <li class="filter" @click="doFilter('.dinner')">Dinner</li>
                   </ul>
                   <!-- @end #filter-list -->
                 </div>
@@ -30,7 +30,7 @@
               <li class="item dinner">
 
                 <a href="#">
-                  <img src="images/food1.jpg" class="img-responsive" alt="Food">
+                  <img src="/images/food1.jpg" class="img-responsive" alt="Food">
                   <div class="menu-desc text-center">
                     <span>
                       <h3>Tomato Curry</h3>
@@ -45,7 +45,7 @@
               <li class="item breakfast">
 
                 <a href="#">
-                  <img src="images/food2.jpg" class="img-responsive" alt="Food">
+                  <img src="/images/food2.jpg" class="img-responsive" alt="Food">
                   <div class="menu-desc">
                     <span>
                       <h3>Prawn Dish</h3>
@@ -59,7 +59,7 @@
               <li class="item desert">
 
                 <a href="#">
-                  <img src="images/food3.jpg" class="img-responsive" alt="Food">
+                  <img src="/images/food3.jpg" class="img-responsive" alt="Food">
                   <div class="menu-desc">
                     <span>
                       <h3>Salad Dish</h3>
@@ -73,7 +73,7 @@
               <li class="item breakfast special">
 
                 <a href="#">
-                  <img src="images/food4.jpg" class="img-responsive" alt="Food">
+                  <img src="/images/food4.jpg" class="img-responsive" alt="Food">
                   <div class="menu-desc">
                     <span>
                       <h3>Prawn Dish</h3>
@@ -87,7 +87,7 @@
               <li class="item breakfast">
 
                 <a href="#">
-                  <img src="images/food5.jpg" class="img-responsive" alt="Food">
+                  <img src="/images/food5.jpg" class="img-responsive" alt="Food">
                   <div class="menu-desc">
                     <span>
                       <h3>Vegetable Dish</h3>
@@ -101,7 +101,7 @@
               <li class="item dinner special">
 
                 <a href="#">
-                  <img src="images/food6.jpg" class="img-responsive" alt="Food">
+                  <img src="/images/food6.jpg" class="img-responsive" alt="Food">
                   <div class="menu-desc">
                     <span>
                       <h3>Chicken Dish</h3>
@@ -115,7 +115,7 @@
               <li class="item desert">
 
                 <a href="#">
-                  <img src="images/food7.jpg" class="img-responsive" alt="Food">
+                  <img src="/images/food7.jpg" class="img-responsive" alt="Food">
                   <div class="menu-desc">
                     <span>
                       <h3>Vegetable Noodles</h3>
@@ -129,7 +129,7 @@
               <li class="item dinner">
 
                 <a href="#">
-                  <img src="images/food8.jpg" class="img-responsive" alt="Food">
+                  <img src="/images/food8.jpg" class="img-responsive" alt="Food">
                   <div class="menu-desc">
                     <span>
                       <h3>Special Salad</h3>
@@ -143,7 +143,7 @@
               <li class="item desert special">
 
                 <a href="#">
-                  <img src="images/food9.jpg" class="img-responsive" alt="Food">
+                  <img src="/images/food9.jpg" class="img-responsive" alt="Food">
                   <div class="menu-desc">
                     <span>
                       <h3>Ice-cream</h3>
@@ -167,3 +167,44 @@
     </div>
   </section>
 </template>
+
+<script>
+// import { eventBus } from '../store/index'
+/* global mixitup */
+
+export default {
+  data() {
+    return {
+      loading: true,
+      mixInstance: null,
+    }
+  },
+  mounted() {
+    this.init()
+  },
+  beforeDestroy() {
+    console.log('destroying mix instance...')
+    this.mixInstance.destroy()
+  },
+  methods: {
+    init() {
+      if (this.mixInstance) {
+        console.log('mix instance found :)')
+      } else if (mixitup) {
+        this.mixInstance = mixitup('#menu-pricing', {
+          selectors: {
+            target: 'li',
+          },
+        })
+        console.log('mix done :)')
+      } else {
+        console.error('mix not available')
+      }
+    },
+    doFilter(str) {
+      console.log('filtering on', str)
+      this.mixInstance.filter(str)
+    },
+  },
+}
+</script>
