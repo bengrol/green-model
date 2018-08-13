@@ -1,0 +1,9 @@
+
+# Doc : https://www.netlify.com/docs/redirects/
+
+# HTTPS enforcement
+http://green-model.netlify.com https://green-model.netlify.com
+http://green-model.netlify.com/* https://green-model.netlify.com/:splat
+
+# History Pushstate and Single Page Apps
+/*    /index.html   200
