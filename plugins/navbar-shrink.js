@@ -12,7 +12,7 @@ function updateNavbar() {
   }
 }
 
-var updateNavbarThrottled = throttle(updateNavbar, 1000)
+var updateNavbarThrottled = throttle(updateNavbar, 300)
 
 $(document).ready(function() {
 
