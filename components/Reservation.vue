@@ -25,7 +25,7 @@
           <div class=" section-content">
             <div class="row">
               <div class="col-md-5 col-sm-6">
-                <form class="reservation-form" method="post" action="reserve.php">
+                <form class="reservation-form" action="https://formspree.io/groleau.b@gmail.com" method="POST">
                   <div class="row">
                     <div class="col-md-6 col-sm-6">
                       <div class="form-group">
