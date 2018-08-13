@@ -211,6 +211,6 @@ export default {
 
 <style>
 section.pricing {
-  padding-top: 65px;
+  padding-top: 45px;
 }
 </style>

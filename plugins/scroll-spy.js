@@ -5,7 +5,11 @@ $('body').scrollspy({
   offset: 40 // Pixels to offset from top when calculating position of scroll.
 })
 
-document.location.hash = ''
+const enableHashSync = false
+
+if (enableHashSync) {
+  document.location.hash = ''
+}
 
 function updateHash(event) {
   console.log('scrollspy detected')
@@ -22,4 +26,6 @@ function updateHash(event) {
 
 var updateHashDebounced = debounce(updateHash, 300)
 
-$('body').on('activate.bs.scrollspy', updateHashDebounced)
+if (enableHashSync) {
+  $('body').on('activate.bs.scrollspy', updateHashDebounced)
+}

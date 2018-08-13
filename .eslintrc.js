@@ -42,6 +42,7 @@ module.exports = {
     "space-before-function-paren": ["error", "never"],
     "space-before-blocks": ["error", "always"],
     'no-console': 'off',
+    'no-debugger': 'off',
     'vue/attributes-order': 'off',
     'vue/html-self-closing': 'off',
     'vue/max-attributes-per-line': 'off',

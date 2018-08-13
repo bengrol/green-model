@@ -56,6 +56,7 @@
 </template>
 
 <script>
+import throttle from 'lodash/throttle'
 import { eventBus } from '../store/index'
 
 export default {
@@ -64,10 +65,67 @@ export default {
       loading: true,
     }
   },
+  mounted() {
+    const updateNavbarThrottled = throttle(this.updateNavbar, 300)
+    $(window).scroll(updateNavbarThrottled)
+    this.updateNavbar()
+    this.handleSmoothScroll()
+  },
   methods: {
     onLangChange() {
       console.log('user changed lang')
       eventBus.$emit('lang-changed')
+    },
+    updateNavbar() {
+      // console.log('updating navbar...')
+      if ($(document).scrollTop() > 50) {
+        // console.log('shrinking navbar...')
+        $('nav').addClass('shrink')
+        $('#logo').attr('src', '/images/Logo_stick.png')
+      } else {
+        $('nav').removeClass('shrink')
+        $('#logo').attr('src', '/images/Logo_main.png')
+      }
+    },
+    handleSmoothScroll() {
+      // Select all links with hashes
+      $('a[href*="#"]')
+        // Remove links that don't actually link to anything
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function(event) {
+          // On-page links
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            // Figure out element to scroll to
+            var target = $(this.hash)
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']')
+            // Does a scroll target exist?
+            if (target.length) {
+              // Only prevent default if animation is actually gonna happen
+              event.preventDefault()
+              $('html, body').animate(
+                {
+                  scrollTop: target.offset().top,
+                },
+                1000,
+                function() {
+                  // Callback after animation
+                  // Must change focus!
+                  var $target = $(target)
+                  $target.focus()
+                  if ($target.is(':focus')) {
+                    // Checking if the target was focused
+                    return false
+                  } else {
+                    $target.attr('tabindex', '-1') // Adding tabindex for elements not focusable
+                    $target.focus() // Set focus again
+                  }
+                  document.location.hash = target[0].id
+                },
+              )
+            }
+          }
+        })
     },
   },
 }

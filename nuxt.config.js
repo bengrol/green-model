@@ -56,7 +56,6 @@ module.exports = {
     // add support for jQuery & Bootstrap
     vendor: [
       'bootstrap',
-      '~/plugins/navbar-shrink.js',
       tplFolder + 'js/jquery.flexslider.min.js',
       '~/plugins/flexslider.js',
       tplFolder + 'js/owl.carousel.min.js',
@@ -65,7 +64,6 @@ module.exports = {
       tplFolder + 'js/jQuery.scrollSpeed.js',
       '~/plugins/scroll-spy.js',
       '~/plugins/scroll-speed.js',
-      '~/plugins/smooth-scroll.js',
       '~/plugins/wow.js',
       tplFolder + 'js/script.js',
     ],
