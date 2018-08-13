@@ -1,0 +1,13 @@
+{
+  "common": {
+    "english": "English",
+    "french": "French"
+  },
+  "home": {
+    "title": "Welcome",
+    "introduction": "This is an introduction in English."
+  },
+  "footer": {
+    "copyright": "Green Model ©️ 2018"
+  }
+}

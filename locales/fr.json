@@ -1,0 +1,13 @@
+{
+  "common": {
+    "english": "Anglais",
+    "french": "Français"
+  },
+  "home": {
+    "title": "Bienvenue",
+    "introduction": "Ceci est un texte d'introduction en Français."
+  },
+  "footer": {
+    "copyright": "Modèle Green ©️ 2018"
+  }
+}

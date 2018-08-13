@@ -7,9 +7,13 @@ module.exports = {
      */
   head: {
     title: 'green-model',
+    htmlAttrs: {
+      lang: 'fr-FR',
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'theme-color', content: '#ffffff' },
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
@@ -22,7 +26,8 @@ module.exports = {
     },
     script:[
       {src: 'https://maps.googleapis.com/maps/api/js'}
-    ]
+    ],
+    noscript: [{ innerHTML: 'Ce site nécessite JavaScript.' }],
   },
   css: [
     // commented because loaded above via bootstrapcdn
@@ -37,6 +42,15 @@ module.exports = {
   ],
   // Customize the progress bar color
   loading: { color: '#3B8070' },
+  // Router conf
+  router: {
+    middleware: 'i18n',
+  },
+  // Plugins
+  plugins: [
+    // trads
+    'plugins/i18n',
+  ],
   // Build configuration
   build: {
     // https://nuxtjs.org/api/configuration-build#extractcss
@@ -70,9 +84,7 @@ module.exports = {
         'window.jQuery': 'jquery'
       })
     ],
-    /*
-         ** Run ESLint on save
-         */
+    // Run ESLint on save
     extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({

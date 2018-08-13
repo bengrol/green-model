@@ -10,9 +10,9 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">
+        <nuxt-link :to="$i18n.path('')" class="navbar-brand">
           <img id="logo" src="images/Logo_main.png" class="logo img-responsive">
-        </a>
+        </nuxt-link>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
