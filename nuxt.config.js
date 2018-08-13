@@ -20,10 +20,6 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', crossorigin: 'anonymous', integrity: 'sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' },
     ],
-    bodyAttrs: {
-      'data-spy': 'scroll',
-      'data-target': '#template-navbar'
-    },
     script:[
       {src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js'},
       {src: 'https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js'},
@@ -59,22 +55,18 @@ module.exports = {
     extractCSS: true,
     // add support for jQuery & Bootstrap
     vendor: [
-      // 'jquery',
       'bootstrap',
-      // 'mixitup',
-      '~/plugins/gmap.js',
       '~/plugins/navbar-shrink.js',
       tplFolder + 'js/jquery.flexslider.min.js',
       '~/plugins/flexslider.js',
       tplFolder + 'js/owl.carousel.min.js',
-      // tplFolder + 'js/jquery.mixitup.min.js', // cdn loaded instead
-      // tplFolder + 'js/wow.min.js', // uses import WOW from 'wow.js' instead
-      '~/plugins/wow.js',
       tplFolder + 'js/jquery.validate.js',
       tplFolder + 'js/jquery.hoverdir.js',
       tplFolder + 'js/jQuery.scrollSpeed.js',
+      '~/plugins/scroll-spy.js',
       '~/plugins/scroll-speed.js',
       '~/plugins/smooth-scroll.js',
+      '~/plugins/wow.js',
       tplFolder + 'js/script.js',
     ],
     plugins: [

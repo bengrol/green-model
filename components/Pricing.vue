@@ -208,3 +208,9 @@ export default {
   },
 }
 </script>
+
+<style>
+section.pricing {
+  padding-top: 65px;
+}
+</style>

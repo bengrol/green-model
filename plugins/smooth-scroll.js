@@ -5,7 +5,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']')
       if (target.length) {
         $('html,body').animate({
-          scrollTop: (target.offset().top - 9) // top navigation height
+          scrollTop: (target.offset().top) // top navigation height
         }, 1000)
         return false
       }
