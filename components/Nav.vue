@@ -10,9 +10,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <nuxt-link :to="$i18n.path('')" class="navbar-brand">
-          <img id="logo" src="/images/Logo_main.png" class="logo img-responsive">
-        </nuxt-link>
+        <nuxt-link :to="$i18n.path('')" class="navbar-brand"></nuxt-link>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -81,10 +79,8 @@ export default {
       if ($(document).scrollTop() > 50) {
         // console.log('shrinking navbar...')
         $('nav').addClass('shrink')
-        $('#logo').attr('src', '/images/Logo_stick.png')
       } else {
         $('nav').removeClass('shrink')
-        $('#logo').attr('src', '/images/Logo_main.png')
       }
     },
     handleSmoothScroll() {
