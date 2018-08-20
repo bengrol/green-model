@@ -61,9 +61,11 @@ module.exports = {
       tplFolder + 'js/owl.carousel.min.js',
       tplFolder + 'js/jquery.validate.js',
       tplFolder + 'js/jquery.hoverdir.js',
+      /*
       tplFolder + 'js/jQuery.scrollSpeed.js',
-      '~/plugins/scroll-spy.js',
       '~/plugins/scroll-speed.js',
+      */
+      '~/plugins/scroll-spy.js',
       '~/plugins/wow.js',
       tplFolder + 'js/script.js',
     ],
