@@ -16,7 +16,7 @@
 }
 
 .pricing-filter-wrapper {
-  background-color: rgba(139, 195, 74, .74);
+  background-color: rgba(185, 210, 55, .74);
   position: relative;
 }
 
@@ -81,7 +81,7 @@
 }
 
 #menu-pricing .item {
-  background-color: #8bc34a;
+  background-color: #b9d237;
   box-shadow: 0 2px 5px #948e8e;
   display: inline-block;
   /*opacity: 0;*/

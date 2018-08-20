@@ -78,19 +78,19 @@ body {
 .btn-middle {
   background-color: transparent;
   padding: 15px 30px;
-  border: 1px solid #8bc34a;
+  border: 1px solid #b9d237;
   color: #679a46;
   margin: 25px 0;
 }
 
 .btn-middle:hover {
-  background-color: #8bc34a;
+  background-color: #b9d237;
   color: #fff;
   box-shadow: 0 2px 5px #948e8e;
 }
 
 .btn-send, .btn-reservation {
-  background-color: #8bc34a;
+  background-color: #b9d237;
   padding: 10px 50px;
   box-shadow: 0 2px 5px #948e8e;
   color: #fff;
@@ -121,6 +121,8 @@ body {
   font-family: 'Roboto';
   font-weight: 100;
   font-size: 60px;
+  color: #573678;
+
 }
 .section-content-para {
   margin: 30px 0;
@@ -144,7 +146,7 @@ body {
   /*position: relative;*/
 }
 .color-bg {
-  background: #8bc34a;
+  background: #b9d237;
 }
 .section-bg {
   background-size: cover;
@@ -324,7 +326,7 @@ nav.shrink .navbar-toggle {
   opacity: 1;
   margin: 0;
   transition: all .4s;
-  background: #8bc34a;
+  background: #b9d237;
   color: #fff;
 }
 .owl-theme .owl-controls .owl-buttons div:hover {
@@ -341,7 +343,7 @@ nav.shrink .navbar-toggle {
 ||				6. About us
 ==================================================*/
 .about-bg {
-  background: url('../images/About-C-bg.jpg');
+  background: url('https://www.greenisbetter.fr/wp-content/uploads/2017/10/vue5.jpg');
   background-repeat: no-repeat;
   background-size: 85%;
   background-position-x: 15%;
@@ -413,7 +415,7 @@ nav.shrink .navbar-toggle {
 
 .menu-system {
   width: 100%;
-  color: #8bc34a;
+  color: #b9d237;
 }
 
 .half {
@@ -463,7 +465,7 @@ nav.shrink .navbar-toggle {
 }
 
 .opening-time {
-  background-color: rgb(139, 195, 74);
+  background-color: rgb(185, 210, 55);
   color: #fff;
   margin-top: -50px;
   padding: 20px 40px;
@@ -565,7 +567,7 @@ nav.shrink .navbar-toggle {
 ==================================================*/
 
 footer {
-  background-color: #8bc34a;
+  background-color: #b9d237;
   color: #ffffff;
   padding: 30px 0;
 }
@@ -831,3 +833,8 @@ footer a:hover {
     padding: 10px;
   }
 }
+
+
+.ytb{    margin-top: 40px;
+  padding-top: 40px;}
+.ytb img{max-width:150px;display:block;}
