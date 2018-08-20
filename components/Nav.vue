@@ -38,11 +38,11 @@
             <a href="#contact">{{ $t('nav.contact') }}</a>
           </li>
           <li>
-            <nuxt-link v-if="$i18n.locale === 'fr'" :to="`/en` + $route.fullPath">
-              <div class="english flag" :title="$t('common.english')" @click="onLangChange"></div>
+            <nuxt-link v-if="$i18n.locale === 'en'" :to="`/fr` + $route.fullPath">
+              <div class="french flag" :title="$t('common.french')" @click="onLangChange"></div>
             </nuxt-link>
             <nuxt-link v-else :to="$route.fullPath.replace(/^\/[^\/]+/, '')">
-              <div class="french flag" :title="$t('common.french')" @click="onLangChange"></div>
+              <div class="english flag" :title="$t('common.english')" @click="onLangChange"></div>
             </nuxt-link>
           </li>
         </ul>
