@@ -1,5 +1,10 @@
 {
   "common": {
+    "send": "Send",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
     "english": "Switch to English",
     "french": "Passer en Français"
   },
@@ -32,5 +37,18 @@
   },
   "footer": {
     "copyright": "Green Model ©️ 2018"
+  },
+  "contact":{
+    "title": "Contact With us"
+  },
+  "product":{
+    "salades": "Fresh salads",
+    "dishes": "Hot dishes",
+    "soupes": "Soups",
+    "quiches": "Quiches & pies",
+    "wraps": "green roll & wraps",
+    "deserts": "desserts & pies",
+    "brunch": "Brunch",
+    "juices": "fantastic fresh cold pressed juices"
   }
 }

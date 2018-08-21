@@ -2,12 +2,12 @@
   <div class="products-wrapper">
     <!--== 8. Great Place to enjoy ==-->
     <section id="great-place-to-enjoy" class="great-place-to-enjoy">
-      <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/beer_black.png">
+      <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/salad-complet.svg">
       <div class="wrapper">
         <div class="container-fluid">
           <div class="row dis-table">
             <div class="col-xs-6 col-sm-6 dis-table-cell color-bg">
-              <h2 class="section-title">Great Place to enjoy</h2>
+              <h2 class="section-title">{{ $t('product.salades') }}</h2>
             </div>
             <div class="col-xs-6 col-sm-6 dis-table-cell section-bg">
 
@@ -23,7 +23,7 @@
 
     <!--==  9. Our Beer  ==-->
     <section id="beer" class="beer">
-      <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/beer_color.png">
+      <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/hot_dishes.svg">
       <div class="container-fluid">
         <div class="row dis-table">
           <div class="hidden-xs col-sm-6 dis-table-cell section-bg">
@@ -32,7 +32,7 @@
 
           <div class="col-xs-12 col-sm-6 dis-table-cell">
             <div class="section-content">
-              <h2 class="section-content-title">Our Beer</h2>
+              <h2 class="section-content-title">{{ $t('product.dishes') }}</h2>
               <div class="section-description">
                 <p class="section-content-para">
                   Astronomy compels the soul to look upward, and leads us from this world to another. Curious that we spend more time congratulating people who have succeeded than encouraging people who have not. As we got further and further away, it [the Earth] diminished in size.

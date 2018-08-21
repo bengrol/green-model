@@ -1,5 +1,10 @@
 {
   "common": {
+    "send": "Envoi",
+    "name": "Nom",
+    "email": "Email",
+    "subject": "Sujet",
+    "message": "Message",
     "english": "Switch to English",
     "french": "Passer en Français"
   },
@@ -32,5 +37,18 @@
   },
   "footer": {
     "copyright": "Modèle Green ©️ 2018"
+  },
+  "contact":{
+    "title": "Contactez nous"
+  },
+  "product":{
+    "salades": "Les salades fraiches",
+    "dishes": "Plats chauds",
+    "soupes": "Soupes",
+    "quiches": "nos quiches & tartes",
+    "wraps": "green roll & wraps",
+    "deserts": "desserts & tartes",
+    "brunch": "le brunch",
+    "juices": "les fantastiques jus frais pressés à froid"
   }
 }
