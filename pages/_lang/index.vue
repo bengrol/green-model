@@ -5,7 +5,7 @@
     <About />
     <Pricing />
     <Products />
-    <Reservation />
+
     <Contact />
     <Map />
     <Footer />
