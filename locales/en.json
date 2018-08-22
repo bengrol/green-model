@@ -15,11 +15,16 @@
   "nav": {
     "about": "about",
     "pricing": "pricing",
-    "beer": "beer",
-    "bread": "bread",
-    "featured": "featured",
-    "reservation": "reservation",
-    "contact": "contact"
+    "contact": "contact",
+    "salades": "Fresh salads",
+    "dishes": "Hot dishes",
+    "soups": "Soups",
+    "quiches": "Quiches & Pies",
+    "wraps": "Green roll & Wraps",
+    "deserts": "Desserts & Pies",
+    "brunch": "Brunch",
+    "juices": "fresh pressed juices"
+
   },
   "header": {
     "slide-1": {
@@ -42,13 +47,14 @@
     "title": "Contact With us"
   },
   "product":{
-    "salades": "Fresh salads",
-    "dishes": "Hot dishes",
-    "soupes": "Soups",
-    "quiches": "Quiches & pies",
-    "wraps": "green roll & wraps",
-    "deserts": "desserts & pies",
-    "brunch": "Brunch",
-    "juices": "fantastic fresh cold pressed juices"
+    "salades": {"title": "Fresh salads", "description": "At Green is better the customer finally has the choice of its ingredients! <br> Every day our green managers select the best fresh products. <br> Then it's up to you to play. All you have to do is choose, season and enjoy."},
+    "dishes": {"title": "Hot dishes", "description": "Fresh and balanced, the succulent green recipes have one thing in common: they are all cooked with love with fresh products. All hot! ... and succulent!"},
+    "soups": {"title": "Soups", "description": "MUSHROOMS - ASPARAGUS - TOMATOES ... and many more to which you add your favorite ingredients!"},
+    "quiches": {"title": "Quiches & Pies", "description": "It's a green \"hits\"! The best pies and crispy seasonal quiches fondant."},
+    "wraps": {"title": "Green roll & Wraps", "description": "All fresh, prepared on the spot the Green rolls ™ and wraps leave like ... rolls!"},
+    "deserts": {"title": "Desserts & Pies", "description": "Yogurt, compotes and other surprises make your eyes sweet!"},
+    "brunch": {"title": "Brunch", "description": "At Green we come with our family on Sunday to enjoy a balanced buffet brunch"},
+    "juices": {"title": "fantastic fresh cold pressed juices", "description": "Fresh fresh cold pressed fruit juice on the spot, a treasure of vitamins!"}
+
   }
 }

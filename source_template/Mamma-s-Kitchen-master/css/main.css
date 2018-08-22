@@ -19,22 +19,22 @@
   background-size: 85%;
 }
 
-.beer .section-bg {
+.hot-dishes .section-bg {
   background: url(../images/plat-chaud.jpg);
   background-position: 51% 58%,75% 58%;
   background-repeat: no-repeat,no-repeat;
-  background-size: contain;
+
 }
 
-.bread .section-bg {
-  background: url(../images/bread-bg1.png),url(../images/bread-bg2.png);
+.pies .section-bg {
+  background: url(../images/quiches.jpg);
   background-position: 51% 58%,75% 58%;
   background-repeat: no-repeat,no-repeat;
-  background-size: 300px 300px,240px 240px;
+
 }
 
-.breakfast .section-bg {
-  background-image: url(../images/OBM-bg.jpg);
+.soups .section-bg {
+  background-image: url(../images/soupe.jpg);
 }
 
 .btn {
@@ -156,8 +156,8 @@
   background: url(../images/social/facebook_black.png);
 }
 
-.featured-dish .section-bg {
-  background-image: url(../images/OFDM-bg.jpg);
+.wraps .section-bg {
+  background-image: url(../images/green-roll.jpg);
 }
 
 .form-control {
@@ -173,7 +173,7 @@
   background: url(../images/social/g-plus_black.png);
 }
 
-*.great-place-to-enjoy .section-bg {
+*.fresh-salades .section-bg {
   background-image: url(../images/salad-bar.jpg);
 }
 
@@ -412,7 +412,7 @@
   position: absolute;
   z-index: 999;
   width: 8em;
-  background-color: #d3c6dd7a;
+  background-color: rgba(211, 198, 221, 0.28);
   border-radius: 15px;
   padding: 7px;
 }
@@ -505,7 +505,7 @@ nav.shrink .navbar-toggle {
 }
 
 @media (min-width: 1500px) {
-  .bread .section-bg, .beer .section-bg {
+  .pies .section-bg, .hot-dishes .section-bg {
     background-position-x: 62%,80%;
     background-size: 330px,264px;
   }

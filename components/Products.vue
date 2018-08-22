@@ -1,13 +1,18 @@
 <template>
   <div class="products-wrapper">
-    <!--== 8. Great Place to enjoy ==-->
-    <section id="great-place-to-enjoy" class="great-place-to-enjoy">
+    <!--== 8. fresh-salades ==-->
+    <section id="fresh-salades" class="fresh-salades">
       <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/salad-complet.svg">
       <div class="wrapper">
         <div class="container-fluid">
           <div class="row dis-table">
             <div class="col-xs-6 col-sm-6 dis-table-cell color-bg">
-              <h2 class="section-title">{{ $t('product.salades') }}</h2>
+              <div class="section-content">
+                <h2 class="section-content-title">{{ $t('product.salades.title') }}</h2>
+                <div class="section-description">
+                  <p class="section-content-para" v-html="$t('product.salades.description')"></p>
+                </div>
+              </div>
             </div>
             <div class="col-xs-6 col-sm-6 dis-table-cell section-bg">
 
@@ -19,10 +24,10 @@
       </div>
       <!-- /.wrapper -->
     </section>
-    <!-- /#great-place-to-enjoy -->
+    <!-- /#fresh-salades -->
 
-    <!--==  9. Our Beer  ==-->
-    <section id="beer" class="beer">
+    <!--==  9. hot dishesr  ==-->
+    <section id="hot-dishes" class="hot-dishes">
       <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/hot_dishes.svg">
       <div class="container-fluid">
         <div class="row dis-table">
@@ -32,14 +37,9 @@
 
           <div class="col-xs-12 col-sm-6 dis-table-cell">
             <div class="section-content">
-              <h2 class="section-content-title">{{ $t('product.dishes') }}</h2>
+              <h2 class="section-content-title">{{ $t('product.dishes.title') }}</h2>
               <div class="section-description">
-                <p class="section-content-para">
-                  Astronomy compels the soul to look upward, and leads us from this world to another. Curious that we spend more time congratulating people who have succeeded than encouraging people who have not. As we got further and further away, it [the Earth] diminished in size.
-                </p>
-                <p class="section-content-para">
-                  beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man. Where ignorance lurks, so too do the frontiers of discovery and imagination.Astronomy compels the soul to look upward, and leads us from this world to another. Curious that we spend more time congratulating people who have succeeded than encouraging people who have not. As we got further and further away, it [the Earth] diminished in size.
-                </p>
+                <p class="section-content-para" v-html="$t('product.dishes.description')"></p>
               </div>
             </div>
           </div>
@@ -47,14 +47,17 @@
       </div>
     </section>
 
-    <!--== 10. Our Breakfast Menu ==-->
-    <section id="breakfast" class="breakfast">
-      <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/bread_black.png">
+    <!--== 10. Our soups ==-->
+    <section id="soups" class="soups">
+      <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/soup.svg">
       <div class="wrapper">
         <div class="container-fluid">
-          <div class="row dis-table">
-            <div class="col-xs-6 col-sm-6 dis-table-cell color-bg">
-              <h2 class="section-title">Our Breakfast Menu</h2>
+          <div class="row dis-table color-bg">
+            <div class="section-content">
+              <h2 class="section-content-title">{{ $t('product.soups.title') }}</h2>
+              <div class="section-description">
+                <p class="section-content-para" v-html="$t('product.soups.description')"></p>
+              </div>
             </div>
             <div class="col-xs-6 col-sm-6 dis-table-cell section-bg">
 
@@ -66,11 +69,11 @@
       </div>
       <!-- /.wrapper -->
     </section>
-    <!-- /#breakfast -->
+    <!-- /#soups -->
 
     <!--== 11. Our Bread ==-->
-    <section id="bread" class="bread">
-      <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/bread_color.png">
+    <section id="pies" class="pies">
+      <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/pies.svg">
       <div class="container-fluid">
         <div class="row dis-table">
           <div class="hidden-xs col-sm-6 dis-table-cell section-bg">
@@ -78,16 +81,10 @@
           </div>
           <div class="col-xs-12 col-sm-6 dis-table-cell">
             <div class="section-content">
-              <h2 class="section-content-title">
-                Our Bread
-              </h2>
+              <h2 class="section-content-title">{{ $t('product.quiches.title') }}</h2>
               <div class="section-description">
-                <p class="section-content-para">
-                  Astronomy compels the soul to look upward, and leads us from this world to another. Curious that we spend more time congratulating people who have succeeded than encouraging people who have not. As we got further and further away, it [the Earth] diminished in size.
-                </p>
-                <p class="section-content-para">
-                  beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man. Where ignorance lurks, so too do the frontiers of discovery and imagination.
-                </p>
+                <p class="section-content-para" v-html="$t('product.soups.description')"></p>
+
               </div>
             </div>
           </div>
@@ -95,14 +92,17 @@
       </div>
     </section>
 
-    <!--== 12. Our Featured Dishes Menu ==-->
-    <section id="featured-dish" class="featured-dish">
-      <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/food_black.png">
+    <!--== 12. wraps ==-->
+    <section id="wraps" class="wraps">
+      <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/wraps.svg">
       <div class="wrapper">
         <div class="container-fluid">
-          <div class="row dis-table">
-            <div class="col-xs-6 col-sm-6 dis-table-cell color-bg">
-              <h2 class="section-title">Our Featured Dishes Menu</h2>
+          <div class="row dis-table color-bg">
+            <div class="section-content">
+              <h2 class="section-content-title">{{ $t('product.wraps.title') }}</h2>
+              <div class="section-description">
+                <p class="section-content-para" v-html="$t('product.wraps.description')"></p>
+              </div>
             </div>
             <div class="col-xs-6 col-sm-6 dis-table-cell section-bg">
 
@@ -114,7 +114,7 @@
       </div>
       <!-- /.wrapper -->
     </section>
-    <!-- /#featured-dish -->
+    <!-- /#wraps -->
 
     <!--== 13. Menu List ==-->
     <section id="menu-list" class="menu-list">

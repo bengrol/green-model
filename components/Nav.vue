@@ -23,16 +23,13 @@
             <a href="#pricing">{{ $t('nav.pricing') }}</a>
           </li>
           <li>
-            <a href="#great-place-to-enjoy">{{ $t('nav.beer') }}</a>
+            <a href="#fresh-salades">{{ $t('nav.salades') }}</a>
           </li>
           <li>
-            <a href="#breakfast">{{ $t('nav.bread') }}</a>
+            <a href="#soups">{{ $t('nav.soups') }}</a>
           </li>
           <li>
-            <a href="#featured-dish">{{ $t('nav.featured') }}</a>
-          </li>
-          <li>
-            <a href="#reserve">{{ $t('nav.reservation') }}</a>
+            <a href="#wraps">{{ $t('nav.wraps') }}</a>
           </li>
           <li>
             <a href="#contact">{{ $t('nav.contact') }}</a>
