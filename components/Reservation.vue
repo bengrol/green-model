@@ -91,3 +91,44 @@
   </div>
 
 </template>
+
+<style>
+.opening-time {
+  background-color: #b9d237;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: -50px;
+  padding: 20px 40px;
+}
+
+.opening-time h4 {
+  font-weight: 600;
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+
+.opening-time p {
+  margin-bottom: 2px;
+}
+
+.opening-time-title {
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+.reservation .section-content {
+  padding: 15% 15% 10%;
+}
+
+.reservation-form {
+  margin-top: -20px;
+}
+
+@media (max-width: 767px) {
+  .opening-time {
+    margin-top: 25px;
+  }
+}
+</style>

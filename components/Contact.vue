@@ -67,3 +67,70 @@
     </section>
   </div>
 </template>
+
+<style>
+
+
+.fb {
+  background: url(/images/social/facebook_color.png);
+}
+
+.fb, .twit, .g-plus, .link {
+  float: left;
+  height: 126px;
+  transition: all .3s ease-in-out;
+  width: 126px;
+}
+
+.fb:hover {
+  background: url(/images/social/facebook_black.png);
+}
+
+.g-plus {
+  background: url(/images/social/g-plus_color.png);
+}
+
+.g-plus:hover {
+  background: url(/images/social/g-plus_black.png);
+}
+
+
+.social-media {
+  left: 5%;
+  margin-top: -58px;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.social-media li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.twit {
+  background: url(/images/social/twitter_color.png);
+}
+
+.twit:hover {
+  background: url(/images/social/twitter_black.png);
+}
+
+@media (max-width: 767px) {
+
+  .contact .section-content {
+    padding: 70px 0;
+  }
+
+  .contact .section-title {
+    padding: 10% 20% 20%;
+  }
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .contact .section-title {
+    padding: 10% 20% 20%;
+  }
+}
+</style>

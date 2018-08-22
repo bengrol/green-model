@@ -42,3 +42,12 @@ export default {
   },
 }
 </script>
+
+
+<style>
+#map-canvas {
+  height: 350px;
+  width: 100%;
+}
+
+</style>

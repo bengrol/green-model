@@ -27,3 +27,25 @@
   </section>
   <!-- /#about -->
 </template>
+
+<style>
+#about {
+  margin-top: -10px;
+}
+
+.about-bg {
+  background: url(/images/green-store-inside-1.jpg);
+  background-position-x: 15%;
+  background-position-y: 80%;
+  background-repeat: no-repeat;
+  background-size: 85%;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .about-bg {
+    background-position-x: 100%;
+    background-position-y: 68%;
+    background-size: 98%;
+  }
+}
+</style>

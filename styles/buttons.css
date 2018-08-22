@@ -1,0 +1,60 @@
+
+.btn {
+  border-radius: 0;
+  letter-spacing: 2px;
+}
+
+.btn-middle {
+  background-color: transparent;
+  border: 1px solid #b9d237;
+  color: #679a46;
+  margin: 25px 0;
+  padding: 15px 30px;
+}
+
+.btn-middle:hover {
+  background-color: #b9d237;
+  box-shadow: 0 2px 5px #948e8e;
+  color: #fff;
+}
+
+.btn-reservation {
+  margin: 0;
+  width: 100%;
+}
+
+.btn-send, .btn-reservation {
+  background-color: #b9d237;
+  box-shadow: 0 2px 5px #948e8e;
+  color: #fff;
+  margin: 20px 0;
+  padding: 10px 50px;
+}
+
+.btn-send:hover, .btn-reservation:hover {
+  background-color: #679a46;
+  color: #eee;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  transition: all .3s ease-in-out;
+}
+
+@media (max-width: 767px) {
+
+  .btn-reservation {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .btn-reservation {
+    padding: 10px;
+  }
+}
+
+

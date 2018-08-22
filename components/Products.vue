@@ -458,3 +458,93 @@
 
   </div>
 </template>
+
+<style>
+.beer .section-bg {
+  background: url(/images/plat-chaud.jpg);
+  background-position: 51% 58%,75% 58%;
+  background-repeat: no-repeat,no-repeat;
+  background-size: contain;
+}
+
+.bread .section-bg {
+  background: url(/images/bread-bg1.png), url(/images/bread-bg2.png);
+  background-position: 51% 58%,75% 58%;
+  background-repeat: no-repeat,no-repeat;
+  background-size: 300px 300px,240px 240px;
+}
+
+.breakfast .section-bg {
+  background-image: url(/images/OBM-bg.jpg);
+}
+
+.featured-dish .section-bg {
+  background-image: url(/images/OFDM-bg.jpg);
+}
+
+.great-place-to-enjoy .section-bg {
+  background-image: url(/images/salad-bar.jpg);
+}
+
+.reserve .section-bg {
+  background-image: url(/images/RaT-bg.jpg);
+}
+
+.half {
+  position: relative;
+  width: 50%;
+}
+
+
+.menu {
+  padding: 50px 0;
+}
+
+.menu-catagory h2 {
+  font-size: 51px;
+  font-weight: 100;
+  margin-bottom: 27px;
+}
+
+.menu-system {
+  color: #b9d237;
+  width: 100%;
+}
+
+.per-head {
+  float: left;
+}
+
+.per-head span {
+  margin-right: 5px;
+}
+.price {
+  float: right;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 767px) {
+
+  .half {
+    width: 100%;
+  }
+
+   .menu {
+    text-align: center;
+  }
+
+    .per-head, .price {
+    float: none;
+  }
+
+
+}
+
+@media (min-width: 1500px) {
+  .bread .section-bg, .beer .section-bg {
+    background-position-x: 62%,80%;
+    background-size: 330px,264px;
+  }
+}
+
+</style>

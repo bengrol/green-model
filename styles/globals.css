@@ -1,0 +1,45 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,400';
+
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,400,700';
+
+.color-bg {
+  background: #b9d237;
+}
+
+.dis-table {
+  display: table;
+}
+
+.dis-table .dis-table-cell {
+  display: table-cell;
+  float: none;
+  padding: 0;
+}
+
+.form-control {
+  border-radius: 0;
+  margin-bottom: 25px;
+}
+
+.link {
+  background: url(/images/social/linkedin_color.png);
+}
+
+.link:hover {
+  background: url(/images/social/linkedin_black.png);
+}
+
+
+body {
+  font-family: 'Raleway','Open-Sans',sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+}
+
+input.empty, textarea.empty {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: inherit;
+}
+
