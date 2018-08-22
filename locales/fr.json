@@ -35,6 +35,11 @@
     "title": "Bienvenue",
     "introduction": "Ceci est un texte d'introduction en Français."
   },
+  "thanks": {
+    "title": "Merci",
+    "message": "Nous avons bien reçu votre message et reviendrons vers vous dès que possible.",
+    "back": "Retour à l'accueil"
+  },
   "footer": {
     "copyright": "Modèle Green ©️ 2018"
   },

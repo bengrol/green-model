@@ -25,7 +25,7 @@
           <div class=" section-content">
             <div class="row">
               <div class="col-md-5 col-sm-6">
-                <form class="reservation-form" action="https://formspree.io/groleau.b@gmail.com" method="POST">
+                <form class="reservation-form" :action="formActionUrl" method="POST">
                   <div class="row">
                     <div class="col-md-6 col-sm-6">
                       <div class="form-group">
@@ -48,6 +48,10 @@
                     <div class="col-md-12 col-sm-12">
                       <textarea id="message" type="text" name="message" class="form-control reserve-form empty iconified" rows="3" required="required" placeholder="  &#xf086;  We're listening"></textarea>
                     </div>
+
+                    <input type="hidden" name="_next" :value="($i18n.locale !== 'en' ? '/' + $i18n.locale : '') + '/message'" />
+
+                    <input type="hidden" name="_language" :value="$i18n.locale" />
 
                     <div class="col-md-12 col-sm-12">
                       <button id="submit" type="submit" name="submit" class="btn btn-reservation">
@@ -91,6 +95,18 @@
   </div>
 
 </template>
+
+<script>
+import { formActionUrl } from '../store/index'
+
+export default {
+  data() {
+    return {
+      formActionUrl
+    }
+  }
+}
+</script>
 
 <style>
 .opening-time {

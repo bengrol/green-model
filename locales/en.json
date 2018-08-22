@@ -12,6 +12,11 @@
     "title": "Welcome",
     "introduction": "This is an introduction in English."
   },
+  "thanks": {
+    "title": "Thank you",
+    "message": "We got your message and will get back to you as soon as possible.",
+    "back": "Go back to home"
+  },
   "nav": {
     "about": "about",
     "pricing": "pricing",

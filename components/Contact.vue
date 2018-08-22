@@ -36,7 +36,7 @@
         <div class="row">
           <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
             <div class="row">
-              <form class="contact-form" action="https://formspree.io/groleau.b@gmail.com" method="POST">
+              <form class="contact-form" :action="formActionUrl" method="POST">
 
                 <div class="col-md-6 col-sm-6">
                   <div class="form-group">
@@ -54,6 +54,10 @@
                   <textarea id="message" name="message" type="text" class="form-control" rows="7" required="required" :placeholder="$t('common.message')"></textarea>
                 </div>
 
+                <input type="hidden" name="_next" :value="($i18n.locale !== 'en' ? '/' + $i18n.locale : '') + '/message'" />
+
+                <input type="hidden" name="_language" :value="$i18n.locale" />
+
                 <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                   <div class="text-center">
                     <button id="submit" type="submit" name="submit" class="btn btn-send">{{ $t('common.send') }}</button>
@@ -68,17 +72,31 @@
   </div>
 </template>
 
+<script>
+import { formActionUrl } from '../store/index'
+
+export default {
+  data() {
+    return {
+      formActionUrl
+    }
+  },
+}
+</script>
+
+
 <style>
-
-
 .fb {
   background: url(/images/social/facebook_color.png);
 }
 
-.fb, .twit, .g-plus, .link {
+.fb,
+.twit,
+.g-plus,
+.link {
   float: left;
   height: 126px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   width: 126px;
 }
 
@@ -93,7 +111,6 @@
 .g-plus:hover {
   background: url(/images/social/g-plus_black.png);
 }
-
 
 .social-media {
   left: 5%;
@@ -117,7 +134,6 @@
 }
 
 @media (max-width: 767px) {
-
   .contact .section-content {
     padding: 70px 0;
   }
@@ -125,7 +141,6 @@
   .contact .section-title {
     padding: 10% 20% 20%;
   }
-
 }
 
 @media (max-width: 991px) and (min-width: 768px) {

@@ -17,25 +17,22 @@
       <div id="Food-fair-toggle" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="#about">{{ $t('nav.about') }}</a>
+            <nuxt-link :to="$i18n.path('#about')">{{ $t('nav.about') }}</nuxt-link>
           </li>
           <li>
-            <a href="#pricing">{{ $t('nav.pricing') }}</a>
+            <nuxt-link :to="$i18n.path('#pricing')">{{ $t('nav.pricing') }}</nuxt-link>
           </li>
           <li>
-            <a href="#great-place-to-enjoy">{{ $t('nav.beer') }}</a>
+            <nuxt-link :to="$i18n.path('#great-place-to-enjoy')">{{ $t('nav.beer') }}</nuxt-link>
           </li>
           <li>
-            <a href="#breakfast">{{ $t('nav.bread') }}</a>
+            <nuxt-link :to="$i18n.path('#breakfast')">{{ $t('nav.bread') }}</nuxt-link>
           </li>
           <li>
-            <a href="#featured-dish">{{ $t('nav.featured') }}</a>
+            <nuxt-link :to="$i18n.path('#featured-dish')">{{ $t('nav.featured') }}</nuxt-link>
           </li>
           <li>
-            <a href="#reserve">{{ $t('nav.reservation') }}</a>
-          </li>
-          <li>
-            <a href="#contact">{{ $t('nav.contact') }}</a>
+            <nuxt-link :to="$i18n.path('#contact')">{{ $t('nav.contact') }}</nuxt-link>
           </li>
           <li>
             <nuxt-link v-if="$i18n.locale === 'en'" :to="`/fr` + $route.fullPath">
@@ -241,17 +238,14 @@ nav.shrink .navbar-toggle {
 }
 
 @media (max-width: 767px) {
-
   .custom-navbar-default {
     padding: 15px 0;
   }
 
-    .navbar-default .navbar-brand {
+  .navbar-default .navbar-brand {
     font-size: 30px;
   }
-
 }
-
 
 @media (max-width: 991px) and (min-width: 768px) {
   .custom-navbar-default {
@@ -275,5 +269,4 @@ nav.shrink .navbar-toggle {
     padding: 18px 0;
   }
 }
-
 </style>
