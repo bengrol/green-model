@@ -26,10 +26,10 @@
             <nuxt-link :to="$i18n.path('#fresh-salades')">{{ $t('nav.salades') }}</nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="$i18n.path('#soups')">{{ $t('nav.soups') }}</nuxt-link>
+            <nuxt-link :to="$i18n.path('#wraps')">{{ $t('nav.wraps') }}</nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="$i18n.path('#wraps')">{{ $t('nav.wraps') }}</nuxt-link>
+            <nuxt-link :to="$i18n.path('open-a-green-saladbar')">{{ $t('nav.open-a-green-saladbar') }}</nuxt-link>
           </li>
           <li>
             <nuxt-link :to="$i18n.path('#contact')">{{ $t('nav.contact') }}</nuxt-link>

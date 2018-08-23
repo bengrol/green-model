@@ -116,6 +116,29 @@
     </section>
     <!-- /#wraps -->
 
+
+
+    <!--== 11. Our Bread ==-->
+    <section id="juice" class="juice">
+      <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/juice.svg">
+      <div class="container-fluid">
+        <div class="row dis-table">
+          <div class="hidden-xs col-sm-6 dis-table-cell section-bg">
+
+          </div>
+          <div class="col-xs-12 col-sm-6 dis-table-cell">
+            <div class="section-content">
+              <h2 class="section-content-title">{{ $t('product.juice.title') }}</h2>
+              <div class="section-description">
+                <p class="section-content-para" v-html="$t('product.juice.description')"></p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--== 13. Menu List ==-->
     <section id="menu-list" class="menu-list">
       <div class="container">
@@ -398,7 +421,7 @@
 </template>
 
 <style>
-  
+
 .pies .section-bg {
   background: url(https://www.greenisbetter.fr/wp-content/uploads/2018/05/QUICHE-1-1-1.jpg);
 }
@@ -417,6 +440,9 @@
 
 .fresh-salades .section-bg {
   background-image: url(/images/salad-bar.jpg);
+}
+.juice .section-bg {
+  background-image: url(https://www.greenisbetter.fr/wp-content/uploads/2018/05/Photo-Pur-2-1.png);
 }
 
 .reserve .section-bg {

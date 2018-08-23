@@ -19,6 +19,7 @@
   },
   "nav": {
     "about": "about",
+    "open-a-green-saladbar": "open-a-green-saladbar",
     "pricing": "pricing",
     "contact": "contact",
     "salades": "Fresh salads",
@@ -59,7 +60,6 @@
     "wraps": {"title": "Green roll & Wraps", "description": "All fresh, prepared on the spot the Green rolls ™ and wraps leave like ... rolls!"},
     "deserts": {"title": "Desserts & Pies", "description": "Yogurt, compotes and other surprises make your eyes sweet!"},
     "brunch": {"title": "Brunch", "description": "At Green we come with our family on Sunday to enjoy a balanced buffet brunch"},
-    "juices": {"title": "fantastic fresh cold pressed juices", "description": "Fresh fresh cold pressed fruit juice on the spot, a treasure of vitamins!"}
-
+    "juice": {"title": "fantastic fresh cold pressed juices", "description": "Fresh fresh cold pressed fruit juice on the spot, a treasure of vitamins!"}
   }
 }
