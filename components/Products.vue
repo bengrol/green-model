@@ -394,99 +394,28 @@
       </div>
     </section>
 
-    <!--== 14. Have a look to our dishes ==-->
-
-    <section id="have-a-look" class="have-a-look hidden-xs">
-      <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/food_color.png">
-      <div class="wrapper">
-        <div class="container-fluid">
-          <div class="row">
-
-            <div class="menu-gallery" style="width: 50%; float:left;">
-              <div class="flexslider-container">
-                <div class="flexslider">
-                  <ul class="slides">
-                    <li>
-                      <img src="/images/menu-gallery/menu1.png" />
-                    </li>
-                    <li>
-                      <img src="/images/menu-gallery/menu2.jpg" />
-                    </li>
-                    <li>
-                      <img src="/images/menu-gallery/menu3.png" />
-                    </li>
-                    <li>
-                      <img src="/images/menu-gallery/menu4.jpg" />
-                    </li>
-                    <li>
-                      <img src="/images/menu-gallery/menu5.jpg" />
-                    </li>
-                    <li>
-                      <img src="/images/menu-gallery/menu6.jpg" />
-                    </li>
-                    <li>
-                      <img src="/images/menu-gallery/menu7.jpg" />
-                    </li>
-                    <li>
-                      <img src="/images/menu-gallery/menu8.jpg" />
-                    </li>
-                    <li>
-                      <img src="/images/menu-gallery/menu9.jpg" />
-                    </li>
-                    <li>
-                      <img src="/images/menu-gallery/menu10.jpg" />
-                    </li>
-                    <li>
-                      <img src="/images/menu-gallery/menu11.jpg" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="gallery-heading hidden-xs color-bg" style="width: 50%; float:right;">
-              <h2 class="section-title">Have A Look To Our Dishes</h2>
-            </div>
-
-          </div>
-          <!-- /.row -->
-        </div>
-        <!-- /.container-fluid -->
-      </div>
-      <!-- /.wrapper -->
-    </section>
-
   </div>
 </template>
 
 <style>
-.beer .section-bg {
-  background: url(/images/plat-chaud.jpg);
-  background-position: 51% 58%,75% 58%;
-  background-repeat: no-repeat,no-repeat;
-  background-size: contain;
-}
-
-.bread .section-bg {
-  background: url(/images/bread-bg1.png), url(/images/bread-bg2.png);
-  background-position: 51% 58%,75% 58%;
-  background-repeat: no-repeat,no-repeat;
-  background-size: 300px 300px,240px 240px;
+  
+.pies .section-bg {
+  background: url(https://www.greenisbetter.fr/wp-content/uploads/2018/05/QUICHE-1-1-1.jpg);
 }
 
 .hot-dishes .section-bg {
   background: url(/images/plat-chaud.jpg);
 }
 
-.breakfast .section-bg {
-  background-image: url(/images/OBM-bg.jpg);
+.soups .section-bg {
+  background-image: url(https://www.greenisbetter.fr/wp-content/uploads/2018/05/SOUPE-1-1.jpg);
 }
 
-.featured-dish .section-bg {
-  background-image: url(/images/OFDM-bg.jpg);
+.wraps .section-bg {
+  background-image: url(https://www.greenisbetter.fr/wp-content/uploads/2018/05/green-roll-roll-1-1.jpg);
 }
 
-.great-place-to-enjoy .section-bg {
+.fresh-salades .section-bg {
   background-image: url(/images/salad-bar.jpg);
 }
 
@@ -545,7 +474,7 @@
 }
 
 @media (min-width: 1500px) {
-  .bread .section-bg, .beer .section-bg {
+  .bread .section-bg {
     background-position-x: 62%,80%;
     background-size: 330px,264px;
   }
