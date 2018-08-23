@@ -60,3 +60,153 @@ export default {
   },
 }
 </script>
+
+<style>
+.contact .section-content {
+  color: #fff;
+}
+
+.contact .section-title {
+  padding: 10% 20%;
+}
+
+.contact-form {
+  padding: 50px 0;
+}
+
+.header-content {
+  display: inline-block;
+  margin-top: 30vh;
+}
+
+.header-sub-title {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.header-title {
+  font-size: 112px;
+  font-weight: 100;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.header-title, .header-sub-title {
+  color: #333;
+  font-family: 'Roboto',sans-serif;
+  text-transform: uppercase;
+}
+
+
+.owl-carousel {
+  margin-top: 156px;
+}
+
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item .item {
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(1) .item {
+  background: url(/images/1.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(2) .item {
+  background: url(/images/2.jpg);
+  background-size: cover;
+}
+
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(3) .item {
+  background: url(/images/3.jpg);
+  background-size: cover;
+}
+
+.owl-next {
+  right: 21%;
+}
+
+.owl-prev {
+  right: 25%;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+  background: #b9d237;
+  border-radius: 100%;
+  bottom: -25px;
+  color: #000;
+  color: #fff;
+  font-size: 15px;
+  height: 50px;
+  margin: 0;
+  opacity: 1;
+  padding: 15px;
+  position: absolute;
+  transition: all .4s;
+  width: 50px;
+}
+
+.owl-theme .owl-controls .owl-buttons div:hover {
+  background: #fff;
+  color: #000;
+}
+
+@media (max-width: 767px) {
+
+   .header-sub-title {
+    margin-left: 3px;
+  }
+
+  .header-title {
+    font-size: 45px;
+    margin-bottom: 5px;
+  }
+
+    .owl-carousel {
+    margin-top: 80px;
+  }
+
+  .owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(1) .item, .owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(2) .item, .owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(3) .item {
+    background-position: center;
+  }
+
+  .owl-theme .owl-controls .owl-buttons .owl-next {
+    right: 5%;
+  }
+
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
+    right: 20%;
+  }
+
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+  .header-title {
+    font-size: 62px;
+  }
+
+
+  .owl-carousel {
+    margin-top: 85px;
+  }
+
+  .owl-theme .owl-controls .owl-buttons .owl-next {
+    right: 12%;
+  }
+
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
+    right: 20%;
+  }
+}
+
+@media (min-width: 1366px) {
+
+  .owl-carousel {
+    margin-top: 94px;
+  }
+
+}
+</style>

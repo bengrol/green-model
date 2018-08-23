@@ -176,7 +176,7 @@ export default {
   data() {
     return {
       loading: true,
-      mixInstance: null,
+      mixInstance: null
     }
   },
   mounted() {
@@ -193,8 +193,8 @@ export default {
       } else if (mixitup) {
         this.mixInstance = mixitup('#menu-pricing', {
           selectors: {
-            target: 'li',
-          },
+            target: 'li'
+          }
         })
         console.log('mix done :)')
       } else {
@@ -204,13 +204,189 @@ export default {
     doFilter(str) {
       console.log('filtering on', str)
       this.mixInstance.filter(str)
-    },
-  },
+    }
+  }
 }
 </script>
 
 <style>
 section.pricing {
   padding-top: 45px;
+}
+
+#filter-list {
+  display: block;
+  margin: 0;
+  padding-left: 0;
+  width: 100%;
+}
+
+#filter-list li {
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  color: #3d7024 !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.2em;
+  margin-right: 15px;
+  padding: 6px 10px;
+  width: auto;
+}
+
+#filter-list li.active {
+  border-bottom: 3px ridge #fff;
+  color: #fff !important;
+}
+
+#filter-list li:hover {
+  color: #fff !important;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu-pricing {
+  display: block;
+  margin-bottom: 0;
+  padding: 50px 0 25px;
+  text-align: center;
+  width: 100%;
+}
+
+#menu-pricing .item {
+  background: #b9d237;
+  box-shadow: 0 2px 5px #948e8e;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 25px;
+  margin-right: 20px;
+  text-align: center;
+  vertical-align: top;
+  width: 30%;
+}
+
+#menu-pricing .item a {
+  background: #fff;
+  display: inline-block;
+  max-width: 100%;
+  text-decoration: none;
+}
+
+#menu-pricing .item h2 {
+  font-size: 32px;
+  margin: 0;
+  padding: 12px;
+}
+
+#menu-pricing .item img {
+  max-width: 100%;
+}
+
+.menu-price li a {
+  color: #fff;
+  overflow: hidden;
+}
+
+.menu-price li a .menu-desc {
+  background: rgba(185, 210, 55, 0.56);
+  font-size: 14px;
+  height: 100%;
+  left: -100%;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+.menu-price li a .menu-desc span h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.menu-price li a,
+.menu-price li a img {
+  display: block;
+  position: relative;
+}
+
+.menu-price li a:hover .menu-desc {
+  left: 0;
+}
+
+.menu-price li a:hover .menu-desc span {
+  color: rgba(255, 255, 255, 0.9);
+  display: block;
+  font-size: 14px;
+  line-height: 23px;
+  padding: 22% 20px;
+}
+
+.pricing-filter {
+  background: url(/images/pricing_bg.jpg) (cover) center fixed;
+}
+
+.pricing-filter-wrapper {
+  background: rgba(185, 210, 55, 0.74);
+  position: relative;
+}
+
+.pricing-title {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.section-header {
+  padding-left: 10px;
+  padding-top: 35px;
+}
+
+@media (max-width: 767px) {
+  #filter-list li {
+    font-size: 14px;
+  }
+
+  #menu-pricing .item {
+    width: 40%;
+  }
+
+  #menu-pricing .item h2 {
+    font-size: 27px;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .menu-price li a .menu-desc span h3 {
+    font-size: 19px;
+    margin-bottom: 12px;
+  }
+
+  .menu-price li a:hover .menu-desc span {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0;
+  }
+
+  .pricing-title {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 991px) {
+  #menu-pricing .item:nth-child(7),
+  #menu-pricing .item:nth-child(8),
+  #menu-pricing .item:nth-child(9) {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  #filter-list li {
+    font-size: 14px;
+  }
+
+
+  .pricing-title {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
 }
 </style>

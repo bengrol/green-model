@@ -27,5 +27,31 @@
   </footer>
 </template>
 
+<style>
+footer {
+  background-color: #b9d237;
+  color: #fff;
+  padding: 30px 0;
+}
+
+footer a {
+  color: #679a46;
+  transition: all .3s ease-in-out;
+}
+
+footer a:hover {
+  color: #00710a;
+  text-decoration: none;
+}
 
 
+.ytb{
+  margin-top: 40px;
+  padding-top: 40px;
+}
+
+.ytb img{
+  max-width:150px;display:block;
+}
+
+</style>

@@ -25,7 +25,7 @@
           <div class=" section-content">
             <div class="row">
               <div class="col-md-5 col-sm-6">
-                <form class="reservation-form" action="https://formspree.io/groleau.b@gmail.com" method="POST">
+                <form class="reservation-form" :action="formActionUrl" method="POST">
                   <div class="row">
                     <div class="col-md-6 col-sm-6">
                       <div class="form-group">
@@ -48,6 +48,10 @@
                     <div class="col-md-12 col-sm-12">
                       <textarea id="message" type="text" name="message" class="form-control reserve-form empty iconified" rows="3" required="required" placeholder="  &#xf086;  We're listening"></textarea>
                     </div>
+
+                    <input type="hidden" name="_next" :value="($i18n.locale !== 'en' ? '/' + $i18n.locale : '') + '/message'" />
+
+                    <input type="hidden" name="_language" :value="$i18n.locale" />
 
                     <div class="col-md-12 col-sm-12">
                       <button id="submit" type="submit" name="submit" class="btn btn-reservation">
@@ -91,3 +95,56 @@
   </div>
 
 </template>
+
+<script>
+import { formActionUrl } from '../store/index'
+
+export default {
+  data() {
+    return {
+      formActionUrl
+    }
+  }
+}
+</script>
+
+<style>
+.opening-time {
+  background-color: #b9d237;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: -50px;
+  padding: 20px 40px;
+}
+
+.opening-time h4 {
+  font-weight: 600;
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+
+.opening-time p {
+  margin-bottom: 2px;
+}
+
+.opening-time-title {
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+.reservation .section-content {
+  padding: 15% 15% 10%;
+}
+
+.reservation-form {
+  margin-top: -20px;
+}
+
+@media (max-width: 767px) {
+  .opening-time {
+    margin-top: 25px;
+  }
+}
+</style>
