@@ -2,6 +2,9 @@
   "name": "green-model",
   "version": "1.1.0",
   "description": "Nuxt.js project",
+  "engines": {
+    "node": ">=8.11.3"
+  },
   "author": "groleau.b@gmail.com",
   "private": true,
   "scripts": {
