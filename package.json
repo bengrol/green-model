@@ -1,15 +1,15 @@
 {
   "name": "green-model",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Nuxt.js project",
   "author": "groleau.b@gmail.com",
   "private": true,
   "scripts": {
     "analyze": "nuxt build --analyze",
     "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
+    "build": "nuxt build --spa",
+    "start": "nuxt start --spa",
+    "generate": "nuxt generate --spa",
     "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
