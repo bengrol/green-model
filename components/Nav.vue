@@ -19,14 +19,15 @@
           <li>
             <nuxt-link :to="$i18n.path('#about')">{{ $t('nav.about') }}</nuxt-link>
           </li>
-          <li>
-            <nuxt-link :to="$i18n.path('#pricing')">{{ $t('nav.pricing') }}</nuxt-link>
-          </li>
+
           <li>
             <nuxt-link :to="$i18n.path('#fresh-salades')">{{ $t('nav.salades') }}</nuxt-link>
           </li>
           <li>
             <nuxt-link :to="$i18n.path('#wraps')">{{ $t('nav.wraps') }}</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link :to="$i18n.path('#green-pass')">{{ $t('nav.green-pass') }}</nuxt-link>
           </li>
           <li>
             <nuxt-link :to="$i18n.path('open-a-green-saladbar')">{{ $t('nav.open-a-green-saladbar') }}</nuxt-link>

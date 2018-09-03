@@ -3,7 +3,7 @@
     <Nav />
     <Header />
     <About />
-    <Pricing />
+    <!--<Pricing />-->
     <Products />
     <Contact />
     <Map />

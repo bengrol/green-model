@@ -139,283 +139,31 @@
       </div>
     </section>
 
-    <!--== 13. Menu List ==-->
-    <section id="menu-list" class="menu-list">
-      <div class="container">
-        <div class="row menu">
-          <div class="col-md-10 col-md-offset-1 col-sm-9 col-sm-offset-2 col-xs-12">
-            <div class="row">
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="row">
-                  <div class="menu-catagory">
-                    <h2>Bread</h2>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="menu-item">
-                    <h3 class="menu-title">French Bread</h3>
-                    <p class="menu-about">Astronomy compels the soul</p>
 
-                    <div class="menu-system">
-                      <div class="half">
-                        <p class="per-head">
-                          <span>
-                            <i class="fa fa-user"></i>
-                          </span>1:1
-                        </p>
-                      </div>
-                      <div class="half">
-                        <p class="price">$149.00</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="menu-item">
-                    <h3 class="menu-title">Italian Bread</h3>
-                    <p class="menu-about">Astronomy compels the soul</p>
-
-                    <div class="menu-system">
-                      <div class="half">
-                        <p class="per-head">
-                          <span>
-                            <i class="fa fa-user"></i>
-                          </span>1:1
-                        </p>
-                      </div>
-                      <div class="half">
-                        <p class="price">$149.00</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="menu-item">
-                    <h3 class="menu-title">Regular Bread</h3>
-                    <p class="menu-about">Astronomy compels the soul</p>
-
-                    <div class="menu-system">
-                      <div class="half">
-                        <p class="per-head">
-                          <span>
-                            <i class="fa fa-user"></i>
-                          </span>1:1
-                        </p>
-                      </div>
-                      <div class="half">
-                        <p class="price">$149.00</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="row">
-                  <div class="menu-catagory">
-                    <h2>Drinks</h2>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="menu-item">
-                    <h3 class="menu-title">Regular Tea</h3>
-                    <p class="menu-about">Astronomy compels the soul</p>
-
-                    <div class="menu-system">
-                      <div class="half">
-                        <p class="per-head">
-                          <span>
-                            <i class="fa fa-user"></i>
-                          </span>1:1
-                        </p>
-                      </div>
-                      <div class="half">
-                        <p class="price">$20.00</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="menu-item">
-                    <h3 class="menu-title">Garlic Tea</h3>
-                    <p class="menu-about">Astronomy compels the soul</p>
-
-                    <div class="menu-system">
-                      <div class="half">
-                        <p class="per-head">
-                          <span>
-                            <i class="fa fa-user"></i>
-                          </span>1:1
-                        </p>
-                      </div>
-                      <div class="half">
-                        <p class="price">$30.00</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="menu-item">
-                    <h3 class="menu-title">Black Coffee</h3>
-                    <p class="menu-about">Astronomy compels the soul</p>
-
-                    <div class="menu-system">
-                      <div class="half">
-                        <p class="per-head">
-                          <span>
-                            <i class="fa fa-user"></i>
-                          </span>1:1
-                        </p>
-                      </div>
-                      <div class="half">
-                        <p class="price">$40.00</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="row">
-                  <div class="menu-catagory">
-                    <h2>Meat</h2>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="menu-item">
-                    <h3 class="menu-title">Bacon</h3>
-                    <p class="menu-about">Astronomy compels the soul</p>
-
-                    <div class="menu-system">
-                      <div class="half">
-                        <p class="per-head">
-                          <span>
-                            <i class="fa fa-user"></i>
-                          </span>1:1
-                        </p>
-                      </div>
-                      <div class="half">
-                        <p class="price">$70.00</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="menu-item">
-                    <h3 class="menu-title">Sausage</h3>
-                    <p class="menu-about">Astronomy compels the soul</p>
-
-                    <div class="menu-system">
-                      <div class="half">
-                        <p class="per-head">
-                          <span>
-                            <i class="fa fa-user"></i>
-                          </span>1:1
-                        </p>
-                      </div>
-                      <div class="half">
-                        <p class="price">$50.00</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="menu-item">
-                    <h3 class="menu-title">Chicken Balls</h3>
-                    <p class="menu-about">Astronomy compels the soul</p>
-
-                    <div class="menu-system">
-                      <div class="half">
-                        <p class="per-head">
-                          <span>
-                            <i class="fa fa-user"></i>
-                          </span>1:1
-                        </p>
-                      </div>
-                      <div class="half">
-                        <p class="price">$90.00</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="row">
-                  <div class="menu-catagory">
-                    <h2>Special</h2>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="menu-item">
-                    <h3 class="menu-title">Chicken Balls</h3>
-                    <p class="menu-about">Astronomy compels the soul</p>
-
-                    <div class="menu-system">
-                      <div class="half">
-                        <p class="per-head">
-                          <span>
-                            <i class="fa fa-user"></i>
-                          </span>1:1
-                        </p>
-                      </div>
-                      <div class="half">
-                        <p class="price">$90.00</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="menu-item">
-                    <h3 class="menu-title">Bacon</h3>
-                    <p class="menu-about">Astronomy compels the soul</p>
-
-                    <div class="menu-system">
-                      <div class="half">
-                        <p class="per-head">
-                          <span>
-                            <i class="fa fa-user"></i>
-                          </span>1:1
-                        </p>
-                      </div>
-                      <div class="half">
-                        <p class="price">$70.00</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="menu-item">
-                    <h3 class="menu-title">Sausage</h3>
-                    <p class="menu-about">Astronomy compels the soul</p>
-
-                    <div class="menu-system">
-                      <div class="half">
-                        <p class="per-head">
-                          <span>
-                            <i class="fa fa-user"></i>
-                          </span>1:1
-                        </p>
-                      </div>
-                      <div class="half">
-                        <p class="price">$50.00</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+    <!--== 12. wraps ==-->
+    <section id="green-pass" class="green-pass">
+      <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/wraps.svg">
+      <div class="wrapper">
+        <div class="container-fluid">
+          <div class="row dis-table color-bg">
+            <div class="section-content">
+              <h2 class="section-content-title">{{ $t('product.green-pass.title') }}</h2>
+              <div class="section-description">
+                <p class="section-content-para" v-html="$t('product.green-pass.description')"></p>
               </div>
             </div>
+            <div class="col-xs-6 col-sm-6 dis-table-cell section-bg">
 
-            <div id="moreMenuContent"></div>
-            <div class="text-center">
-              <a id="loadMenuContent" class="btn btn-middle hidden-sm hidden-xs">Load More
-                <span class="caret"></span>
-              </a>
             </div>
           </div>
+          <!-- /.dis-table -->
         </div>
+        <!-- /.row -->
       </div>
+      <!-- /.wrapper -->
     </section>
+    <!-- /#wraps -->
+
 
   </div>
 </template>
@@ -436,6 +184,9 @@
 
 .wraps .section-bg {
   background-image: url(https://www.greenisbetter.fr/wp-content/uploads/2018/05/green-roll-roll-1-1.jpg);
+}
+.green-pass .section-bg {
+  background-image: url(https://www.greenisbetter.fr/wp-content/uploads/2017/11/1.jpg?id=1945);
 }
 
 .fresh-salades .section-bg {

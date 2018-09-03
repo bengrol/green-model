@@ -5,15 +5,15 @@
         <div class="col-md-4">
           <div class="copyright text-center">
             <p> <nuxt-link :to="$i18n.path('')">{{ $t('footer.copyright') }}</nuxt-link> </p>
-            <p><a href="http://greenbusinessonly.com" target="_blank" >SITE INTERNATIONAL</a></p>
-            <p><a href="http://www.greenisbetterorder.com/" target="_blank">LIVRAISON A DOMICILE</a></p>
+            <p><a href="http://greenbusinessonly.com" target="_blank" >{{ $t('footer.international') }}L</a></p>
+            <p><a href="http://www.greenisbetterorder.com/" target="_blank">{{ $t('footer.delivery') }}</a></p>
           </div>
 
         </div>
         <div class="col-md-4">
           <div class="copyright text-center">
-            <p><a href="http://www.greenbusinessonly.com/fr/greenisbetter-pack_expat/" target="_blank">OUVRIR UN GREEN AUX USA</a></p>
-            <p><a href="https://www.slideshare.net/greensaladbars/fr-gib-brochure-jan2017" target="_blank">BROCHURE FRANCHISE</a>
+            <p><a href="http://www.greenbusinessonly.com/fr/greenisbetter-pack_expat/" target="_blank">{{ $t('footer.open-green-usa') }}</a></p>
+            <p><a href="https://www.slideshare.net/greensaladbars/fr-gib-brochure-jan2017" target="_blank">{{ $t('footer.docu') }}</a>
             </p>
           </div>
         </div>

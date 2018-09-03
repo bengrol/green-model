@@ -11,6 +11,7 @@
   "nav": {
     "about": "à propos",
     "pricing": "prix",
+    "green-pass": "Carte Green Pass",
     "beer": "bière",
     "bread": "pain",
     "featured": "suggestion",
@@ -41,7 +42,11 @@
     "back": "Retour à l'accueil"
   },
   "footer": {
-    "copyright": "Modèle Green ©️ 2018"
+    "copyright": "Green Model ©️ 2018",
+    "international" : "international website",
+    "delivery" : "Commandes & livraison",
+    "open-green-usa" : "Ouvrir un Green is better aux USA",
+    "docu" : "brochure franchise"
   },
   "contact":{
     "title": "Contactez nous"
@@ -55,5 +60,8 @@
     "deserts": "desserts & tartes",
     "brunch": "le brunch",
     "juices": "les fantastiques jus frais pressés à froid"
-  }
+  },
+  "about": {
+  "story":"<p>In 2003, in New York, we discovered the concept of saladbar.<br>Paradoxically, it is in the country where food remains a controversial subject that was born the \"green attitude\" and the notion of healthy eating, fast and cheap.</p><p>Very quickly, BIG APPLE falls in love with this new concept that invades Manhattan like wildfire !</p><p>All that remained was to propose it in France, where again the phenomenon quickly became obvious : <br><em>Eating quickly does not prevent eating healthy and green!<br> The green revolution was on.</em></p><p>In 2009, thanks to its success in Paris, we decided to develop Green is better wherever it has its place, that is to say almost everywhere.<br>Development continues in France and internationally.<br>Indeed, a franchise network must evolve to adapt to the ever-changing world.</p><p>At Saladbar Green is better, we give the floor to members of the network who regularly participate in workshops that highlight the behavior of consumers ...!<br>Logic no?</p>"
+}
 }

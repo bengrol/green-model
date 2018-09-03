@@ -21,6 +21,7 @@
     "about": "about",
     "open-a-green-saladbar": "open-a-green-saladbar",
     "pricing": "pricing",
+    "green-pass": "Green Pass Card",
     "contact": "contact",
     "salades": "Fresh salads",
     "dishes": "Hot dishes",
@@ -30,7 +31,6 @@
     "deserts": "Desserts & Pies",
     "brunch": "Brunch",
     "juices": "fresh pressed juices"
-
   },
   "header": {
     "slide-1": {
@@ -47,19 +47,54 @@
     }
   },
   "footer": {
-    "copyright": "Green Model ©️ 2018"
+    "copyright": "Green Model ©️ 2018",
+    "international" : "international website",
+    "delivery" : "Order & Delivery",
+    "open-green-usa" : "open a green is USA",
+    "docu" : "brochure franchise"
   },
-  "contact":{
-    "title": "Contact With us"
+  "contact": {
+    "title": "Contact us"
   },
-  "product":{
-    "salades": {"title": "Fresh salads", "description": "At Green is better the customer finally has the choice of its ingredients! <br> Every day our green managers select the best fresh products. <br> Then it's up to you to play. All you have to do is choose, season and enjoy."},
-    "dishes": {"title": "Hot dishes", "description": "Fresh and balanced, the succulent green recipes have one thing in common: they are all cooked with love with fresh products. All hot! ... and succulent!"},
-    "soups": {"title": "Soups", "description": "MUSHROOMS - ASPARAGUS - TOMATOES ... and many more to which you add your favorite ingredients!"},
-    "quiches": {"title": "Quiches & Pies", "description": "It's a green \"hits\"! The best pies and crispy seasonal quiches fondant."},
-    "wraps": {"title": "Green roll & Wraps", "description": "All fresh, prepared on the spot the Green rolls ™ and wraps leave like ... rolls!"},
-    "deserts": {"title": "Desserts & Pies", "description": "Yogurt, compotes and other surprises make your eyes sweet!"},
-    "brunch": {"title": "Brunch", "description": "At Green we come with our family on Sunday to enjoy a balanced buffet brunch"},
-    "juice": {"title": "fantastic fresh cold pressed juices", "description": "Fresh fresh cold pressed fruit juice on the spot, a treasure of vitamins!"}
+  "product": {
+    "salades": {
+      "title": "Fresh salads",
+      "description": "At Green is better the customer finally has the choice of its ingredients! <br> Every day our green managers select the best fresh products. <br> Then it's up to you to play. All you have to do is choose, season and enjoy."
+    },
+    "dishes": {
+      "title": "Hot dishes",
+      "description": "Fresh and balanced, the succulent green recipes have one thing in common: they are all cooked with love with fresh products. All hot! ... and succulent!"
+    },
+    "soups": {
+      "title": "Soups",
+      "description": "MUSHROOMS - ASPARAGUS - TOMATOES ... and many more to which you add your favorite ingredients!"
+    },
+    "quiches": {
+      "title": "Quiches & Pies",
+      "description": "It's a green \"hits\"! The best pies and crispy seasonal quiches fondant."
+    },
+    "wraps": {
+      "title": "Green roll & Wraps",
+      "description": "All fresh, prepared on the spot the Green rolls ™ and wraps leave like ... rolls!"
+    },
+    "deserts": {
+      "title": "Desserts & Pies",
+      "description": "Yogurt, compotes and other surprises make your eyes sweet!"
+    },
+    "brunch": {
+      "title": "Brunch",
+      "description": "At Green we come with our family on Sunday to enjoy a balanced buffet brunch"
+    },
+    "green-pass": {
+      "title": "Green Pass",
+      "description": "<p> The Green Pass card is not just a \"simple\" loyalty card, but first and foremost a true revolutionary payment method in the fast food sector. </ p><p> It works like a prepaid card on which you credit a sum by credit card, cash or restaurant tickets! It therefore allows you to store the holdings of your restaurant vouchers (no return-money, more cash flow, less cash handling, etc.) and entitles you every week to benefits that are exclusively reserved for Green Pass members. ®: </ p><ul><li> Promo on favorite menus </ li><li> Bonuses and loyalty bonuses </ li><li> Sponsorship Bonus </ li><li> Priority fund thanks to the Fast Green® option </ li></ul><p>And many more to discover each week ... </ p><p> To get the Green Pass card, go to your Saladbar Green is better! <br> It's free, no registration fee, no subscription, no contract! </ p>"
+    },
+    "juice": {
+      "title": "fantastic fresh cold pressed juices",
+      "description": "Fresh fresh cold pressed fruit juice on the spot, a treasure of vitamins!"
+    }
+  },
+  "about": {
+    "story": "<p>In 2003, in New York, we discovered the concept of saladbar.<br>Paradoxically, it is in the country where food remains a controversial subject that was born the \"green attitude\" and the notion of healthy eating, fast and cheap.</p><p>Very quickly, BIG APPLE falls in love with this new concept that invades Manhattan like wildfire !</p><p>All that remained was to propose it in France, where again the phenomenon quickly became obvious : <br><em>Eating quickly does not prevent eating healthy and green!<br> The green revolution was on.</em></p><p>In 2009, thanks to its success in Paris, we decided to develop Green is better wherever it has its place, that is to say almost everywhere.<br>Development continues in France and internationally.<br>Indeed, a franchise network must evolve to adapt to the ever-changing world.</p><p>At Saladbar Green is better, we give the floor to members of the network who regularly participate in workshops that highlight the behavior of consumers ...!<br>Logic no?</p>"
   }
 }
