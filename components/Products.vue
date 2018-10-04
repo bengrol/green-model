@@ -6,7 +6,7 @@
       <div class="wrapper">
         <div class="container-fluid">
           <div class="row dis-table">
-            <div class="col-xs-6 col-sm-6 dis-table-cell color-bg">
+            <div class="col-xs-12 col-sm-6 dis-table-cell color-bg">
               <div class="section-content">
                 <h2 class="section-content-title">{{ $t('product.salades.title') }}</h2>
                 <div class="section-description">
@@ -14,9 +14,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-6 col-sm-6 dis-table-cell section-bg">
-
-            </div>
+            <div class="hidden-xs col-sm-6 dis-table-cell section-bg"></div>
           </div>
           <!-- /.dis-table -->
         </div>
@@ -31,10 +29,7 @@
       <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/hot_dishes.svg">
       <div class="container-fluid">
         <div class="row dis-table">
-          <div class="hidden-xs col-sm-6 dis-table-cell section-bg">
-
-          </div>
-
+          <div class="hidden-xs col-sm-6 dis-table-cell section-bg"></div>
           <div class="col-xs-12 col-sm-6 dis-table-cell">
             <div class="section-content">
               <h2 class="section-content-title">{{ $t('product.dishes.title') }}</h2>
@@ -53,8 +48,7 @@
       <div class="wrapper">
         <div class="container-fluid">
           <div class="row dis-table color-bg">
-            <div class="col-xs-6 col-sm-6 dis-table-cell color-bg">
-
+            <div class="col-xs-12 col-sm-6 dis-table-cell color-bg">
               <div class="section-content">
                 <h2 class="section-content-title">{{ $t('product.soups.title') }}</h2>
                 <div class="section-description">
@@ -62,10 +56,7 @@
                 </div>
               </div>
             </div>
-
-            <div class="col-xs-6 col-sm-6 dis-table-cell section-bg">
-
-            </div>
+            <div class="hidden-xs col-sm-6 dis-table-cell section-bg"></div>
           </div>
           <!-- /.dis-table -->
         </div>
@@ -80,15 +71,12 @@
       <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/pies.svg">
       <div class="container-fluid">
         <div class="row dis-table">
-          <div class="hidden-xs col-sm-6 dis-table-cell section-bg">
-
-          </div>
+          <div class="hidden-xs col-sm-6 dis-table-cell section-bg"></div>
           <div class="col-xs-12 col-sm-6 dis-table-cell">
             <div class="section-content">
               <h2 class="section-content-title">{{ $t('product.quiches.title') }}</h2>
               <div class="section-description">
                 <p class="section-content-para" v-html="$t('product.soups.description')"></p>
-
               </div>
             </div>
           </div>
@@ -108,9 +96,7 @@
                 <p class="section-content-para" v-html="$t('product.wraps.description')"></p>
               </div>
             </div>
-            <div class="col-xs-6 col-sm-6 dis-table-cell section-bg">
-
-            </div>
+            <div class="hidden-xs col-sm-6 dis-table-cell section-bg"></div>
           </div>
           <!-- /.dis-table -->
         </div>
@@ -120,29 +106,23 @@
     </section>
     <!-- /#wraps -->
 
-
-
     <!--== 11. Our Bread ==-->
     <section id="juice" class="juice">
       <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/juice.svg">
       <div class="container-fluid">
         <div class="row dis-table">
-          <div class="hidden-xs col-sm-6 dis-table-cell section-bg">
-
-          </div>
+          <div class="hidden-xs col-sm-6 dis-table-cell section-bg"></div>
           <div class="col-xs-12 col-sm-6 dis-table-cell">
             <div class="section-content">
               <h2 class="section-content-title">{{ $t('product.juice.title') }}</h2>
               <div class="section-description">
                 <p class="section-content-para" v-html="$t('product.juice.description')"></p>
-
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
 
     <!--== 12. wraps ==-->
     <section id="green-pass" class="green-pass">
@@ -150,9 +130,7 @@
       <div class="wrapper">
         <div class="container-fluid">
           <div class="row dis-table">
-
-            <div class="col-xs-6 col-sm-6 dis-table-cell color-bg">
-
+            <div class="col-xs-12 col-sm-6 dis-table-cell color-bg">
               <div class="section-content">
                 <h2 class="section-content-title">{{ $t('product.green-pass.title') }}</h2>
                 <div class="section-description">
@@ -160,10 +138,7 @@
                 </div>
               </div>
             </div>
-
-            <div class="col-xs-6 col-sm-6 dis-table-cell section-bg">
-
-            </div>
+            <div class="hidden-xs col-sm-6 dis-table-cell section-bg"></div>
           </div>
           <!-- /.dis-table -->
         </div>
@@ -172,48 +147,44 @@
       <!-- /.wrapper -->
     </section>
     <!-- /#wraps -->
-
-
   </div>
 </template>
 
 <style>
-
 .pies .section-bg {
-  background: url(https://www.greenisbetter.fr/wp-content/uploads/2018/05/QUICHE-1-1-1.jpg);
+  background: url('https://www.greenisbetter.fr/wp-content/uploads/2018/05/QUICHE-1-1-1.jpg');
 }
 
 .hot-dishes .section-bg {
-  background: url(/images/plat-chaud.jpg);
+  background: url('/images/plat-chaud.jpg');
 }
 
 .soups .section-bg {
-  background-image: url(https://www.greenisbetter.fr/wp-content/uploads/2018/05/SOUPE-1-1.jpg);
+  background-image: url('https://www.greenisbetter.fr/wp-content/uploads/2018/05/SOUPE-1-1.jpg');
 }
 
 .wraps .section-bg {
-  background-image: url(https://www.greenisbetter.fr/wp-content/uploads/2018/05/green-roll-roll-1-1.jpg);
+  background-image: url('https://www.greenisbetter.fr/wp-content/uploads/2018/05/green-roll-roll-1-1.jpg');
 }
 .green-pass .section-bg {
-  background-image: url(/images/green-pass.png);
+  background-image: url('/images/green-pass.png');
 }
 
 .fresh-salades .section-bg {
-  background-image: url(/images/salad-bar.jpg);
+  background-image: url('/images/salad-bar.jpg');
 }
 .juice .section-bg {
-  background-image: url(https://www.greenisbetter.fr/wp-content/uploads/2018/05/Photo-Pur-2-1.png);
+  background-image: url('https://www.greenisbetter.fr/wp-content/uploads/2018/05/Photo-Pur-2-1.png');
 }
 
 .reserve .section-bg {
-  background-image: url(/images/RaT-bg.jpg);
+  background-image: url('/images/RaT-bg.jpg');
 }
 
 .half {
   position: relative;
   width: 50%;
 }
-
 
 .menu {
   padding: 50px 0;
@@ -243,27 +214,24 @@
 }
 
 @media (max-width: 767px) {
-
   .half {
     width: 100%;
   }
 
-   .menu {
+  .menu {
     text-align: center;
   }
 
-    .per-head, .price {
+  .per-head,
+  .price {
     float: none;
   }
-
-
 }
 
 @media (min-width: 1500px) {
   .bread .section-bg {
-    background-position-x: 62%,80%;
-    background-size: 330px,264px;
+    background-position-x: 62%, 80%;
+    background-size: 330px, 264px;
   }
 }
-
 </style>
