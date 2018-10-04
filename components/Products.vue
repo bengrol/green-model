@@ -186,7 +186,7 @@
   background-image: url(https://www.greenisbetter.fr/wp-content/uploads/2018/05/green-roll-roll-1-1.jpg);
 }
 .green-pass .section-bg {
-  background-image: url(https://www.greenisbetter.fr/wp-content/uploads/2017/11/1.jpg?id=1945);
+  background-image: url(/images/green-pass.png);
 }
 
 .fresh-salades .section-bg {

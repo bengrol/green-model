@@ -8,14 +8,16 @@
         </div>
       </div>
     </div>
+
     <div class="item">
       <div class="container">
-        <div class="header-content">
+        <div class="header-content text-right pull-right">
           <h1 class="header-title">{{ $t('header.slide-2.title') }}</h1>
           <p class="header-sub-title">{{ $t('header.slide-2.subtitle') }}</p>
         </div>
       </div>
     </div>
+
     <div class="item">
       <div class="container">
         <div class="header-content text-right pull-right">
@@ -24,6 +26,8 @@
         </div>
       </div>
     </div>
+
+
   </section>
 </template>
 
@@ -92,11 +96,15 @@ export default {
 }
 
 .header-title, .header-sub-title {
-  color: #333;
+  color: #573678;
   font-family: 'Roboto',sans-serif;
   text-transform: uppercase;
-}
 
+}
+.header-sub-title {
+font-weight: bold;
+
+}
 
 .owl-carousel {
   margin-top: 156px;
@@ -108,18 +116,18 @@ export default {
 }
 
 .owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(1) .item {
-  background: url(/images/1.jpg);
+  background: url(/images/salade-2.jpg);
   background-position: bottom;
   background-size: cover;
 }
 
-.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(2) .item {
-  background: url(/images/2.jpg);
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(3) .item {
+  background: url(/images/fresh-juice-3.jpg);
   background-size: cover;
 }
 
-.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(3) .item {
-  background: url(/images/3.jpg);
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item:nth-child(2) .item {
+  background: url(/images/salade-3.jpg);
   background-size: cover;
 }
 
