@@ -53,12 +53,16 @@
       <div class="wrapper">
         <div class="container-fluid">
           <div class="row dis-table color-bg">
-            <div class="section-content">
-              <h2 class="section-content-title">{{ $t('product.soups.title') }}</h2>
-              <div class="section-description">
-                <p class="section-content-para" v-html="$t('product.soups.description')"></p>
+            <div class="col-xs-6 col-sm-6 dis-table-cell color-bg">
+
+              <div class="section-content">
+                <h2 class="section-content-title">{{ $t('product.soups.title') }}</h2>
+                <div class="section-description">
+                  <p class="section-content-para" v-html="$t('product.soups.description')"></p>
+                </div>
               </div>
             </div>
+
             <div class="col-xs-6 col-sm-6 dis-table-cell section-bg">
 
             </div>
@@ -145,13 +149,18 @@
       <img class="img-responsive section-icon hidden-sm hidden-xs" src="/images/icons/wraps.svg">
       <div class="wrapper">
         <div class="container-fluid">
-          <div class="row dis-table color-bg">
-            <div class="section-content">
-              <h2 class="section-content-title">{{ $t('product.green-pass.title') }}</h2>
-              <div class="section-description">
-                <p class="section-content-para" v-html="$t('product.green-pass.description')"></p>
+          <div class="row dis-table">
+
+            <div class="col-xs-6 col-sm-6 dis-table-cell color-bg">
+
+              <div class="section-content">
+                <h2 class="section-content-title">{{ $t('product.green-pass.title') }}</h2>
+                <div class="section-description">
+                  <p class="section-content-para" v-html="$t('product.green-pass.description')"></p>
+                </div>
               </div>
             </div>
+
             <div class="col-xs-6 col-sm-6 dis-table-cell section-bg">
 
             </div>

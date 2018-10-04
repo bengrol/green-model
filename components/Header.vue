@@ -99,6 +99,7 @@ export default {
   color: #573678;
   font-family: 'Roboto',sans-serif;
   text-transform: uppercase;
+  text-shadow: 4px 4px #b9d2379e;
 
 }
 .header-sub-title {
