@@ -1,53 +1,44 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      <div id="map-canvas"></div>
+      <div class="map-canvas">
+        <no-ssr>
+          <l-map :zoom="zoom" :center="center">
+            <l-tile-layer :url="layer"></l-tile-layer>
+            <l-marker :lat-lng="center">
+              <l-popup :content="popup" />
+              <l-tooltip :content="tooltip" />
+            </l-marker>
+          </l-map>
+        </no-ssr>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 // import { eventBus } from '../store/index'
-/* global google */
+const markerLat = 49.51186
+const markerLng = 10.3281
 
 export default {
   data() {
     return {
       loading: true,
+      zoom: 13,
+      popup: 'Green Salad Bar',
+      tooltip: 'Here we are !',
+      center: [markerLat, markerLng],
+      layer: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
     }
-  },
-  mounted() {
-    this.initMap()
-  },
-  methods: {
-    initMap() {
-      console.log('init map...')
-      var mapCanvas = document.getElementById('map-canvas')
-      var mapOptions = {
-        center: new google.maps.LatLng(24.909439, 91.8338),
-        zoom: 16,
-        scrollwheel: false,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-      }
-      var map = new google.maps.Map(mapCanvas, mapOptions)
-
-      var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(24.909439, 91.8338),
-        title: 'Green Restaurant',
-      })
-
-      // To add the marker to the map, call setMap();
-      marker.setMap(map)
-    },
-  },
+  }
 }
 </script>
 
 
 <style>
-#map-canvas {
+.map-canvas {
   height: 350px;
   width: 100%;
 }
-
 </style>

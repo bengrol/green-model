@@ -19,8 +19,7 @@ module.exports = {
     ],
     script: [
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js' },
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js' },
-      { src: 'https://maps.googleapis.com/maps/api/js' },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js' }
     ],
     noscript: [{ innerHTML: 'Ce site nécessite JavaScript.' }],
   },
@@ -35,6 +34,9 @@ module.exports = {
   router: {
     middleware: 'i18n',
   },
+  modules: [
+    'nuxt-leaflet',
+  ],
   plugins: [
     'plugins/i18n',
   ],
