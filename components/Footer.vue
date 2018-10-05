@@ -19,7 +19,11 @@
         </div>
         <div class="col-md-4">
           <div class="copyright text-center">
-            <div class="ytb"><a href="https://www.youtube.com/channel/UC79WouLYKZ2q_HKO42bEtcw" target="_blank"><img alt="chaine green is better" src="https://www.greenisbetter.fr/wp-content/uploads/2018/04/yt_logo_rgb_dark.png"> La chaine Green is better</a></div>
+            <div class="ytb">
+              <a href="https://www.youtube.com/channel/UC79WouLYKZ2q_HKO42bEtcw" target="_blank">
+                <img alt="chaine green is better" src="/images/youtube.png"> La chaine Green is better
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -36,7 +40,7 @@ footer {
 
 footer a {
   color: #679a46;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 footer a:hover {
@@ -44,14 +48,13 @@ footer a:hover {
   text-decoration: none;
 }
 
-
-.ytb{
+.ytb {
   margin-top: 40px;
   padding-top: 40px;
 }
 
-.ytb img{
-  max-width:150px;display:block;
+.ytb img {
+  max-width: 150px;
+  display: block;
 }
-
 </style>

@@ -166,7 +166,7 @@
 
 <style>
 .pies .section-bg {
-  background: url('https://www.greenisbetter.fr/wp-content/uploads/2018/05/QUICHE-1-1-1.jpg');
+  background: url('/images/quiche.jpg');
 }
 
 .hot-dishes .section-bg {
@@ -174,11 +174,11 @@
 }
 
 .soups .section-bg {
-  background-image: url('https://www.greenisbetter.fr/wp-content/uploads/2018/05/SOUPE-1-1.jpg');
+  background-image: url('/images/soupe.jpg');
 }
 
 .wraps .section-bg {
-  background-image: url('https://www.greenisbetter.fr/wp-content/uploads/2018/05/green-roll-roll-1-1.jpg');
+  background-image: url('/images/green-roll.jpg');
 }
 .green-pass .section-bg {
   background-image: url('/images/green-pass.png');
@@ -188,7 +188,7 @@
   background-image: url('/images/salad-bar.jpg');
 }
 .juice .section-bg {
-  background-image: url('https://www.greenisbetter.fr/wp-content/uploads/2018/05/Photo-Pur-2-1.png');
+  background-image: url('/images/pur.jpg');
 }
 
 .reserve .section-bg {
