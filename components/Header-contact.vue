@@ -80,7 +80,7 @@ export default {
 
 .header-content {
   display: inline-block;
-  margin-top: 30vh;
+  margin-top: 45vh;
   /*
   background-color: rgba(255, 255, 255, 0.7);
   padding: 10px 20px;
@@ -107,6 +107,8 @@ export default {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   text-shadow: 4px 4px #b9d2379e;
+  background-color: #c4c5beab;
+  border-radius: 7px;
 }
 
 .header-sub-title {
@@ -128,21 +130,24 @@ export default {
   background-image: url(/images/green-equitable-4.jpg);
 }
 
+
 .VueCarousel-slide:nth-child(2) .item {
-  background-image: url(/images/salad-bar-2.jpg);
-}
-
-.VueCarousel-slide:nth-child(3) .item {
-  background-image: url(/images/salad-bar-3.jpg);
-}
-
-.VueCarousel-slide:nth-child(4) .item {
   background-image: url(/images/green-equitable-1.jpg);
 }
 
-.VueCarousel-slide:nth-child(5) .item {
+.VueCarousel-slide:nth-child(3) .item {
   background-image: url(/images/green-equitable-3.jpg);
 }
+
+
+.VueCarousel-slide:nth-child(4) .item {
+  background-image: url(/images/salad-bar-2.jpg);
+}
+
+.VueCarousel-slide:nth-child(5) .item {
+  background-image: url(/images/salad-bar-3.jpg);
+}
+
 
 
 .VueCarousel-navigation-prev,
