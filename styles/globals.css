@@ -8,6 +8,7 @@
 
 .dis-table {
   display: table;
+  width: calc(100% + 30px);
 }
 
 .dis-table .dis-table-cell {
