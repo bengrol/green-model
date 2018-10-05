@@ -20,4 +20,9 @@ export const mutations = {
   },
 }
 
+export const adress = {
+  'street':'16th Birn street Get Plaza (4th floar) USA',
+  'phone':'+44 12 213584'
+}
+
 export const eventBus = new Vue()

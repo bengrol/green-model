@@ -62,22 +62,16 @@
     "slide-4": {
       "title": "green is better",
       "subtitle": "open our restaurant"
-    },
-    "slide-5": {
-      "title": "",
-      "subtitle": ""
-    },
-    "slide-6": {
-      "title": "",
-      "subtitle": ""
     }
+
   },
   "footer": {
     "copyright": "Green Model ©️ 2018",
     "international" : "international website",
     "delivery" : "Order & Delivery",
     "open-green-usa" : "open a green is USA",
-    "docu" : "brochure franchise"
+    "docu" : "brochure franchise",
+    "youtube" : "La chaine Green is better"
   },
   "contact": {
     "title": "Contact us"
@@ -121,6 +115,13 @@
     }
   },
   "about": {
+    "title": "About us",
     "story": "<p>In 2003, in New York, we discovered the concept of saladbar.<br>Paradoxically, it is in the country where food remains a controversial subject that was born the \"green attitude\" and the notion of healthy eating, fast and cheap.</p><p>Very quickly, BIG APPLE falls in love with this new concept that invades Manhattan like wildfire !</p><p>All that remained was to propose it in France, where again the phenomenon quickly became obvious : <br><em>Eating quickly does not prevent eating healthy and green!<br> The green revolution was on.</em></p><p>In 2009, thanks to its success in Paris, we decided to develop Green is better wherever it has its place, that is to say almost everywhere.<br>Development continues in France and internationally.<br>Indeed, a franchise network must evolve to adapt to the ever-changing world.</p><p>At Saladbar Green is better, we give the floor to members of the network who regularly participate in workshops that highlight the behavior of consumers ...!<br>Logic no?</p>"
+  },
+  "open-a-green": {
+    "title": "OPEN A GREEN SALADBAR",
+    "submit": "Open my saladbar",
+    "sub-title": "DISCOVER OUR RESTAURANTS GREEN IS BETTER",
+    "story": "<p>Come with your motivation, we take care of the rest!<br>We bring our know-how to open your saladbar:<br>the know-how of the 1st global network of saladbars, present in 22 countries<br>the personalized follow-up of the assembly of your project until the opening<br>assistance in setting up your business plan<br>support for partner banks<br>the legal service<br>the contracting authority and the works teams<br>support for service providers (insurance companies, accounting firms, lawyers ...)<br>the optimization of purchases and margins thanks to Green Market ©<br>Do you think you have the soul of a Green Partner?<br>Send us your application by clicking here, we will study it with the greatest care and we will give you an answer within 48 hours.</p>"
   }
 }

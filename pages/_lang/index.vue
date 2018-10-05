@@ -3,7 +3,6 @@
     <Nav />
     <Header />
     <About />
-    <!--<Pricing />-->
     <Products />
     <Contact />
     <Map />
@@ -18,9 +17,7 @@ import Footer from '~/components/Footer.vue'
 import Header from '~/components/Header.vue'
 import Map from '~/components/Map.vue'
 import Nav from '~/components/Nav.vue'
-import Pricing from '~/components/Pricing.vue'
 import Products from '~/components/Products.vue'
-import Reservation from '~/components/Reservation.vue'
 
 export default {
   components: {
@@ -30,9 +27,7 @@ export default {
     Header,
     Map,
     Nav,
-    Pricing,
     Products,
-    Reservation,
   },
 }
 </script>

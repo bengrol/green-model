@@ -8,7 +8,7 @@
           <div class="hidden-xs col-sm-6 section-bg about-bg dis-table-cell"></div>
           <div class="col-xs-12 col-sm-6 dis-table-cell">
             <div class="section-content">
-              <h2 class="section-content-title">About us</h2>
+              <h2 class="section-content-title">{{ $t('about.title') }}</h2>
               <div v-html="$t('about.story')"></div>
             </div>
             <!-- /.section-content -->

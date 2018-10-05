@@ -35,6 +35,14 @@
           <li>
             <nuxt-link :to="$i18n.path('#contact')">{{ $t('nav.contact') }}</nuxt-link>
           </li>
+          <li>
+            <nuxt-link v-if="$i18n.locale === 'en'" :to="`/fr` + $route.fullPath">
+              <div class="french flag" :title="$t('common.french')" @click="onLangChange"></div>
+            </nuxt-link>
+            <nuxt-link v-else :to="$route.fullPath.replace(/^\/[^\/]+/, '')">
+              <div class="english flag" :title="$t('common.english')" @click="onLangChange"></div>
+            </nuxt-link>
+          </li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->

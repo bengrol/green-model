@@ -8,9 +8,9 @@
           </div>
           <div class="col-xs-6 col-sm-6 dis-table-cell">
             <div class="section-content">
-              <p>16th Birn street Get Plaza (4th floar) USA</p>
-              <p>+44 12 213584</p>
-              <p>example@mail.com </p>
+              <p>{{ adress.street }}</p>
+              <p>{{ adress.phone }}</p>
+
             </div>
           </div>
         </div>
@@ -78,11 +78,13 @@
 
 <script>
 import { formActionUrl } from '../store/index'
+import { adress } from '../store/index'
 
 export default {
   data() {
     return {
-      formActionUrl
+      formActionUrl,
+      adress
     }
   },
 }

@@ -44,12 +44,15 @@ input.empty, textarea.empty {
   text-decoration: inherit;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form{
-  background-color: white;
-  margin-top: 290px;
-  max-height: none;
-}
 
 navbar-default .navbar-toggle {
   background-color: white;
+}
+
+@media (max-width: 768px){
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    background-color: white;
+    margin-top: 290px;
+    max-height: none;
+  }
 }

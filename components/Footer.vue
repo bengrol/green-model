@@ -21,7 +21,7 @@
           <div class="copyright text-center">
             <div class="ytb">
               <a href="https://www.youtube.com/channel/UC79WouLYKZ2q_HKO42bEtcw" target="_blank">
-                <img alt="chaine green is better" src="/images/youtube.png"> La chaine Green is better
+                <img alt="chaine green is better" src="/images/youtube.png">{{ $t('footer.youtube') }}
               </a>
             </div>
           </div>
