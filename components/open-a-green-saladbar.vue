@@ -2,7 +2,7 @@
   <div class="products-wrapper">
 
 
-    <section id="have-a-look" class="have-a-look hidden-xs">
+    <section id="have-a-look" class="have-a-look ">
 
       <div class="wrapper">
         <div class="container-fluid">
