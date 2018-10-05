@@ -24,10 +24,6 @@
 </template>
 
 <style>
-#about {
-  margin-top: -10px;
-}
-
 .about-bg {
   background: url(/images/green-store-inside-1.jpg);
   background-position-x: 15%;

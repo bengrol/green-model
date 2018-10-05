@@ -25,8 +25,6 @@ module.exports = {
     noscript: [{ innerHTML: 'Ce site nécessite JavaScript.' }],
   },
   css: [
-    { src: '~/vendors/owl.carousel.css', lang: 'css' },
-    { src: '~/vendors/owl.theme.css', lang: 'css' },
     { src: '~/vendors/animate.css', lang: 'css' },
     { src: '~/vendors/flexslider.css', lang: 'css' },
     { src: '~/styles/globals.css', lang: 'css' },
@@ -44,9 +42,10 @@ module.exports = {
     extractCSS: true,
     vendor: [
       'bootstrap',
+      'vue-carousel',
       '~/vendors/jquery.flexslider.min.js',
       '~/plugins/flexslider.js',
-      '~/vendors/owl.carousel.min.js',
+      '~/plugins/carousel',
       '~/vendors/jquery.validate.js',
       '~/vendors/jquery.hoverdir.js',
       '~/plugins/scroll-spy.js',
@@ -59,6 +58,7 @@ module.exports = {
         jQuery: 'jquery',
         'window.jQuery': 'jquery'
       })
+      /* { src: '~/plugins/carousel', ssr: false } */
     ],
     // Run ESLint on save
     extend(config, { isDev, isClient }) {
