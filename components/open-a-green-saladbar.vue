@@ -6,40 +6,7 @@
 
       <div class="wrapper">
         <div class="container-fluid">
-          <div class="row">
-            <div class="menu-gallery" style="width: 50%; float:left;">
-              <div class="flexslider-container">
-                <div class="flexslider">
-                  <ul class="slides">
-                    <li>
-                      <img src="https://www.greenisbetter.fr/wp-content/uploads/2018/03/CESAR-CAMARO%CC%81N-1.jpg" />
-                    </li>
-                    <li>
-                      <img src="https://www.greenisbetter.fr/wp-content/uploads/2017/11/IMG_5380.jpg" />
-                    </li>
-                    <li>
-                      <img src="https://www.greenisbetter.fr/wp-content/uploads/2017/10/1.jpg" />
-                    </li>
-                    <li>
-                      <img src="https://www.greenisbetter.fr/wp-content/uploads/2017/11/20596989_1909947862580806_558852542343303778_n.jpg" />
-                    </li>
-                    <li>
-                      <img src="https://www.greenisbetter.fr/wp-content/uploads/2018/03/ATU%CC%81N-2.jpg" />
-                    </li>
-                    <li>
-                      <img src="https://www.greenisbetter.fr/wp-content/uploads/2018/03/PULPO-2.jpg" />
-                    </li>
-                    <li>
-                      <img src="https://www.greenisbetter.fr/wp-content/uploads/2017/10/6.jpg" />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="gallery-heading hidden-xs color-bg" style="width: 50%; float:right;">
-              <h2 class="section-title">{{ $t('nav.open-a-green-saladbar') }}</h2>
-            </div>
-          </div>
+
 
           <div class="row">
             <div class="section-content open-a-saladbar-content">

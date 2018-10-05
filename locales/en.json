@@ -46,6 +46,32 @@
       "subtitle": "Fresh & delicious smoothies"
     }
   },
+  "header-contact": {
+    "slide-1": {
+      "title": "xxx",
+      "subtitle": "xxx"
+    },
+    "slide-2": {
+      "title": "xxx",
+      "subtitle": "xxx"
+    },
+    "slide-3": {
+      "title": "",
+      "subtitle": ""
+    },
+    "slide-4": {
+      "title": "",
+      "subtitle": ""
+    },
+    "slide-5": {
+      "title": "",
+      "subtitle": ""
+    },
+    "slide-6": {
+      "title": "",
+      "subtitle": ""
+    }
+  },
   "footer": {
     "copyright": "Green Model ©️ 2018",
     "international" : "international website",
