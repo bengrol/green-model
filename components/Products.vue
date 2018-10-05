@@ -10,7 +10,9 @@
               <div class="section-content">
                 <h2 class="section-content-title">{{ $t('product.salades.title') }}</h2>
                 <div class="section-description">
-                  <p class="section-content-para" v-html="$t('product.salades.description')"></p>
+                  <no-ssr>
+                    <p class="section-content-para" v-html="$t('product.salades.description')"></p>
+                  </no-ssr>
                 </div>
               </div>
             </div>
@@ -34,7 +36,9 @@
             <div class="section-content">
               <h2 class="section-content-title">{{ $t('product.dishes.title') }}</h2>
               <div class="section-description">
-                <p class="section-content-para" v-html="$t('product.dishes.description')"></p>
+                <no-ssr>
+                  <p class="section-content-para" v-html="$t('product.dishes.description')"></p>
+                </no-ssr>
               </div>
             </div>
           </div>
@@ -52,7 +56,9 @@
               <div class="section-content">
                 <h2 class="section-content-title">{{ $t('product.soups.title') }}</h2>
                 <div class="section-description">
-                  <p class="section-content-para" v-html="$t('product.soups.description')"></p>
+                  <no-ssr>
+                    <p class="section-content-para" v-html="$t('product.soups.description')"></p>
+                  </no-ssr>
                 </div>
               </div>
             </div>
@@ -76,7 +82,9 @@
             <div class="section-content">
               <h2 class="section-content-title">{{ $t('product.quiches.title') }}</h2>
               <div class="section-description">
-                <p class="section-content-para" v-html="$t('product.soups.description')"></p>
+                <no-ssr>
+                  <p class="section-content-para" v-html="$t('product.soups.description')"></p>
+                </no-ssr>
               </div>
             </div>
           </div>
@@ -93,7 +101,9 @@
             <div class="section-content">
               <h2 class="section-content-title">{{ $t('product.wraps.title') }}</h2>
               <div class="section-description">
-                <p class="section-content-para" v-html="$t('product.wraps.description')"></p>
+                <no-ssr>
+                  <p class="section-content-para" v-html="$t('product.wraps.description')"></p>
+                </no-ssr>
               </div>
             </div>
             <div class="hidden-xs col-sm-6 dis-table-cell section-bg"></div>
@@ -116,7 +126,9 @@
             <div class="section-content">
               <h2 class="section-content-title">{{ $t('product.juice.title') }}</h2>
               <div class="section-description">
-                <p class="section-content-para" v-html="$t('product.juice.description')"></p>
+                <no-ssr>
+                  <p class="section-content-para" v-html="$t('product.juice.description')"></p>
+                </no-ssr>
               </div>
             </div>
           </div>
@@ -134,7 +146,9 @@
               <div class="section-content">
                 <h2 class="section-content-title">{{ $t('product.green-pass.title') }}</h2>
                 <div class="section-description">
-                  <p class="section-content-para" v-html="$t('product.green-pass.description')"></p>
+                  <no-ssr>
+                    <p class="section-content-para" v-html="$t('product.green-pass.description')"></p>
+                  </no-ssr>
                 </div>
               </div>
             </div>

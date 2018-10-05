@@ -1,19 +1,19 @@
 <template>
   <section class="header-slider">
-
-    <carousel :per-page="1" :autoplay="true" :autoplay-timeout="4000" :mouse-drag="true" :navigation-enabled="true" :pagination-enabled="false" :loop="true" >
-      <slide v-for="(item, index) in list" :key="index">
-        <div class="item">
-          <div class="container">
-            <div class="header-content" :class="[item.right ? 'text-right pull-right':'']">
-              <h1 class="header-title">{{ $t(item.title) }}</h1>
-              <p class="header-sub-title">{{ $t(item.subtitle) }}</p>
+    <no-ssr>
+      <carousel :per-page="1" :autoplay="true" :autoplay-timeout="4000" :mouse-drag="true" :navigation-enabled="true" :pagination-enabled="false" :loop="true" >
+        <slide v-for="(item, index) in list" :key="index">
+          <div class="item">
+            <div class="container">
+              <div class="header-content" :class="[item.right ? 'text-right pull-right':'']">
+                <h1 class="header-title">{{ $t(item.title) }}</h1>
+                <p class="header-sub-title">{{ $t(item.subtitle) }}</p>
+              </div>
             </div>
           </div>
-        </div>
-      </slide>
-    </carousel>
-
+        </slide>
+      </carousel>
+    </no-ssr>
     <!-- <i class="fa fa-chevron-right"></i> -->
 
   </section>
