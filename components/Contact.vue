@@ -40,7 +40,32 @@
         <div class="row">
           <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
             <div class="row">
-              <form class="contact-form" :action="formActionUrl" method="POST">
+              <h1>test MAJ</h1>
+
+              <form name="contact" method="POST" data-netlify="true">
+                <p>
+                  <label>Your Name: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                  <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                  <label>Your Role: <select name="role[]" multiple>
+                    <option value="leader">Leader</option>
+                    <option value="follower">Follower</option>
+                  </select></label>
+                </p>
+                <p>
+                  <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+              </form>
+
+
+
+              <!-- <form class="contact-form" :action="formActionUrl" method="POST">
 
                 <div class="col-md-6 col-sm-6">
                   <div class="form-group">
@@ -67,7 +92,8 @@
                     <button id="submit" type="submit" name="submit" class="btn btn-send">{{ $t('common.send') }}</button>
                   </div>
                 </div>
-              </form>
+              </form> -->
+
             </div>
           </div>
         </div>
