@@ -41,7 +41,7 @@
           <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
             <div class="row">
               <h1>test MAJ</h1>
-              <form name="contact" method="POST" data-netlify="true">
+              <form name="contact_green" method="post" action="/success" data-netlify="true">  
                 <p>
                   <label>Your Name: <input type="text" name="name" /></label>   
                 </p>
