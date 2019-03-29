@@ -4,7 +4,7 @@ module.exports = {
   head: {
     title: 'green-model',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'fr',
     },
     meta: [
       { charset: 'utf-8' },

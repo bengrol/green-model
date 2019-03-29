@@ -18,8 +18,9 @@
 
 <script>
 // import { eventBus } from '../store/index'
-const markerLat = 49.51186
-const markerLng = 10.3281
+// 5.311006, -3.992008   5.311000, -3.992000
+const markerLat = 5.311000
+const markerLng = -3.992000
 
 export default {
   data() {

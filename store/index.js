@@ -21,7 +21,8 @@ export const mutations = {
 }
 
 export const adress = {
-  'street':'16th Birn street Get Plaza (4th floar) USA',
+  'street':'Boulevard de Lorraine \n' +
+    'ABIDJAN - COTE IVOIRE ',
   'phone':'+44 12 213584'
 }
 

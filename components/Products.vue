@@ -83,7 +83,7 @@
               <h2 class="section-content-title">{{ $t('product.quiches.title') }}</h2>
               <div class="section-description">
                 <no-ssr>
-                  <p class="section-content-para" v-html="$t('product.soups.description')"></p>
+                  <p class="section-content-para" v-html="$t('product.quiches.description')"></p>
                 </no-ssr>
               </div>
             </div>

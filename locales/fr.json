@@ -8,30 +8,6 @@
     "english": "Switch to English",
     "french": "Passer en Français"
   },
-  "nav": {
-    "about": "à propos",
-    "pricing": "prix",
-    "green-pass": "Carte Green Pass",
-    "beer": "bière",
-    "bread": "pain",
-    "featured": "suggestion",
-    "reservation": "réservation",
-    "contact": "contact"
-  },
-  "header": {
-    "slide-1": {
-      "title": "MEILLEURS FRUITS",
-      "subtitle": "inserez votre slogan ici"
-    },
-    "slide-2": {
-      "title": "MEILLEURS SNACKS",
-      "subtitle": "inserez votre slogan ici"
-    },
-    "slide-3": {
-      "title": "MEILLEURS COKTAILS",
-      "subtitle": "inserez votre slogan ici"
-    }
-  },
   "home": {
     "title": "Bienvenue",
     "introduction": "Ceci est un texte d'introduction en Français."
@@ -41,27 +17,112 @@
     "message": "Nous avons bien reçu votre message et reviendrons vers vous dès que possible.",
     "back": "Retour à l'accueil"
   },
+  "nav": {
+    "about": "à propos",
+    "open-a-green-saladbar": "ouvrir un salad bar green",
+    "pricing": "prix",
+    "green-pass": "Carte Green Pass",
+    "contact": "contact",
+    "salades": "Salades",
+    "dishes": "Plats chauds",
+    "soups": "Soupes",
+    "quiches": "Quiches",
+    "wraps": "Wraps",
+    "deserts": "Desserts & Tartes",
+    "brunch": "Brunch",
+    "juices": "Jus de fruits frais"
+  },
+  "header": {
+    "slide-1": {
+      "title": "INGREDIENTS FRAIS",
+      "subtitle": "Votre choix est forcement le meilleur"
+    },
+    "slide-2": {
+      "title": "GREEN SNACKS",
+      "subtitle": "Une manière de grignotter sainement"
+    },
+    "slide-3": {
+      "title": "MEILLEURS BOISSONS",
+      "subtitle": "Smoothies frais et délicieux"
+    }
+  },
+  "header-contact": {
+    "slide-1": {
+      "title": "green equitable",
+      "subtitle": ""
+    },
+    "slide-2": {
+      "title": "nouveau concept",
+      "subtitle": "découvrez notre encore plus green restaurant"
+    },
+    "slide-3": {
+      "title": "fair trade",
+      "subtitle": ""
+    },
+    "slide-4": {
+      "title": "green is better",
+      "subtitle": "Ouvrez votre propre restaurant"
+    }
+
+  },
   "footer": {
     "copyright": "Green Model ©️ 2018",
-    "international" : "international website",
+    "international" : "Site international",
     "delivery" : "Commandes & livraison",
     "open-green-usa" : "Ouvrir un Green is better aux USA",
-    "docu" : "brochure franchise"
+    "docu" : "brochure franchise",
+    "youtube" : "La chaine Green is better"
   },
   "contact":{
     "title": "Contactez nous"
   },
-  "product":{
-    "salades": "Les salades fraiches",
-    "dishes": "Plats chauds",
-    "soupes": "Soupes",
-    "quiches": "nos quiches & tartes",
-    "wraps": "green roll & wraps",
-    "deserts": "desserts & tartes",
-    "brunch": "le brunch",
-    "juices": "les fantastiques jus frais pressés à froid"
+  "product": {
+    "salades": {
+      "title": "Fresh salads",
+      "description": "Chez Green is better, le client a enfin le choix de ses ingrédients! <br> Chaque jour, nos responsables verts sélectionnent les meilleurs produits frais. <br> Ensuite, à vous de jouer. Tout ce que vous avez à faire est de choisir, assaisonner et profiter."
+    },
+    "dishes": {
+      "title": "Hot dishes",
+      "description": "Fraîches et équilibrées, nos succulentes recettes ont un point commun: elles sont toutes cuisinées avec amour et avec des produits frais. Tout chaud! ... et succulente!"
+    },
+    "soups": {
+      "title": "Soups",
+      "description": "CHAMPIGNONS - ASPERGES - TOMATES ... et beaucoup d'autres auxquels vous ajoutez vos ingrédients préférés!"
+    },
+    "quiches": {
+      "title": "Quiches & Pies",
+      "description": "C'est un \"hits\" de chez Green ! Les meilleures tartes et quiches fondantes de saison et toujours croustillantes."
+    },
+    "wraps": {
+      "title": "Green roll & Wraps",
+      "description": "Tous frais, préparés sur place, les Green Rolls ™ sont les Rolls des wraps ... ;)"
+    },
+    "deserts": {
+      "title": "Desserts & Pies",
+      "description": "Yaourt, compotes et douceur !"
+    },
+    "brunch": {
+      "title": "Brunch",
+      "description": "Chez Green, nous venons avec notre famille le dimanche pour profiter d'un buffet brunch équilibré"
+    },
+    "green-pass": {
+      "title": "Green Pass",
+      "description": "<p> La carte Green Pass n’est pas simplement une \"simple\" carte de fidélité, elle est avant tout un véritable moyen de paiement révolutionnaire dans le secteur de la restauration rapide. </ p> <p> Cela fonctionne comme une carte prépayée sur laquelle vous créditez une somme par carte de crédit, espèces ou tickets de restaurant! Il vous permet donc de stocker les avoirs de vos chèques restaurant (pas d'argent de retour, plus de trésorerie, moins de manipulation de l'argent, etc.) et vous donne droit à des avantages réservés exclusivement aux membres Green Pass. ®: </ p> <ul> <li> Promo sur les menus préférés </ li> <li> Bonus et primes de fidélité </ li> <li> Bonus de parrainage </ li> <li> Fonds prioritaire grâce au vert rapide Option ® </ li> </ ul> <p> Et bien d’autres à découvrir chaque semaine ... </ p> <p> Pour obtenir la carte Green Pass, rendez-vous à votre Saladbar Green, c'est mieux! <br> C'est gratuit, pas de frais d'inscription, pas d'abonnement, pas de contrat! </ p>"
+    },
+    "juice": {
+      "title": "Fantastique jus frais pressés à froid",
+      "description": "Jus de fruits frais pressés à froid sur place, un trésor de vitamines à la carte ( heyyy ho )!"
+    }
   },
   "about": {
-  "story":"<p>In 2003, in New York, we discovered the concept of saladbar.<br>Paradoxically, it is in the country where food remains a controversial subject that was born the \"green attitude\" and the notion of healthy eating, fast and cheap.</p><p>Very quickly, BIG APPLE falls in love with this new concept that invades Manhattan like wildfire !</p><p>All that remained was to propose it in France, where again the phenomenon quickly became obvious : <br><em>Eating quickly does not prevent eating healthy and green!<br> The green revolution was on.</em></p><p>In 2009, thanks to its success in Paris, we decided to develop Green is better wherever it has its place, that is to say almost everywhere.<br>Development continues in France and internationally.<br>Indeed, a franchise network must evolve to adapt to the ever-changing world.</p><p>At Saladbar Green is better, we give the floor to members of the network who regularly participate in workshops that highlight the behavior of consumers ...!<br>Logic no?</p>"
+    "title": "A propos de nous",
+    "story":"<p>En 2003, à New York, nous avons découvert le concept de saladbar. <br> Paradoxalement, c’est dans le pays où l’alimentation reste un sujet controversé qui a donné naissance à \"la Green attitude\" et à la notion d'alimentation saine, rapide et bon marché. </p><p> Très vite, BIG APPLE tombe sous le charme de ce nouveau concept qui envahit Manhattan comme une traînée de poudre! </p><p> Il ne restait plus qu'à le proposer en France, où le phénomène est vite devenu évident: <br><em> Manger vite n'empêche pas de manger sainement et vert! <br> La révolution verte était en marche. </em></p><p>En 2009, grâce à son succès à Paris, nous avons décidé de développer Green is Better partout où il a sa place, c’est-à-dire presque partout. <br> Le développement se poursuit en France et à l’international. <br> En effet, un réseau de franchise doit évoluer pour s’adapter au monde en constante évolution. </p><p> Dans les Saladbar Green is better nous donnons la parole aux membres du réseau qui participent régulièrement à des ateliers qui mettent en lumière le comportement des consommateurs ...! <br> Logic non ?</p>"
+  },
+  "open-a-green": {
+    "title": "OUVRIR UN SALADBAR GREEN",
+    "submit": "Ouvrir mon saladbar",
+    "sub-title": "DECOUVREZ NOS RESTAURANTS GREEN IS BETTER",
+    "story": "<p> Venez avec votre motivation, nous nous occupons du reste! <br> Nous apportons notre savoir-faire pour ouvrir votre saladbar: <br> le savoir-faire du 1er réseau mondial de saladbars, présent dans 22 pays <br > le suivi personnalisé de l'assemblage de votre projet jusqu'à l'ouverture <br> l'assistance à la mise en place de votre business plan et au support des banques partenaires du service juridique du pouvoir adjudicateur et des équipes de travaux <br > accompagnement des prestataires de services (compagnies d'assurances, cabinets comptables, avocats ...) <br> l'optimisation des achats et des marges grâce à Green Market © <br> Pensez-vous avoir l'âme d'un partenaire vert? <br> Envoyer votre demande en cliquant ici, nous l'étudierons avec le plus grand soin et nous vous répondrons dans les 48 heures. </ p>"
+  }
 }
-}
+
