@@ -9,7 +9,6 @@
           <div class="col-xs-6 col-sm-6 dis-table-cell">
             <div class="section-content">
               <p>{{ adress.street }}</p>
-              <!--   <p>{{ adress.phone }}</p>-->
             </div>
           </div>
         </div>
@@ -56,11 +55,8 @@
                 <div class="col-md-6 col-sm-6">
                   <textarea id="message" name="message" type="text" class="form-control" rows="7" required="required" :placeholder="$t('common.message')"></textarea>
                 </div>
-
                 <input type="hidden" name="_next" :value="($i18n.locale !== 'en' ? '/' + $i18n.locale : '') + '/message'" />
-
                 <input type="hidden" name="_language" :value="$i18n.locale" />
-
                 <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
                   <div class="text-center">
                     <button id="submit" type="submit" name="submit" class="btn btn-send">{{ $t('common.send') }}</button>
